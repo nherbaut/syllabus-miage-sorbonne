@@ -27,7 +27,7 @@ PANDOC_COMMON_OPTS := \
 # ==== Phony targets ====
 .PHONY: all md pdf clean
 
-all: pdf
+all: md pdf
 
 # Convert Windows-1252 CSV to UTF-8
 %-UTF8.csv: %.csv
