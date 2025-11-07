@@ -56,6 +56,7 @@ def get_md_l3(input_csv):
 
             code = process_value(row.get("Code", ""))
             td = process_value(row.get("TD", ""))
+            cours = process_value(row.get("Cours ", ""))
             libele = process_value(row.get("Libellé", ""))
             description = process_value(row.get("Description", ""))
             objectifs = process_value(row.get("Objectifs", ""))
@@ -76,6 +77,7 @@ def get_md_l3(input_csv):
 * mots clés: **{mots_cles}**
 * le cours est assuré en **{langues}**
 * volume de TD: **{td}**
+* volume de Cours: **{cours}**
 
 ## Objectifs
 
