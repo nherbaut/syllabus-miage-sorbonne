@@ -1,0 +1,325 @@
+promo;;Code;Cours;TD;;;;Libellé;Description;Objectifs;Ouvert aux étudiants en échange;Pré-requis obligatoires;Contrôle des connaissances;Syllabus / Méthodes Pédagogiques;Compétences Visées;Compétences Requises;Bibliographie;mots clés;Langues d'enseignement
+IBI/SBI;Cours obligatoire;M1IBI-INF1;15;15;Nicolas, Irina, Carine;;;Architectures logcielles et Web;This course introduces modern front-end development, focusing on frameworks, tools, and practices that power interactive, scalable, and performant web applications. Students will explore JavaScript frameworks, component-based architecture, state management, and frontend-backend integration.;"Understand the principles of modern front-end architectures and tools.
+Build scalable and maintainable web applications using state-of-the-art frameworks and libraries.
+Gain expertise in component-driven development, state management, and testing.
+Integrate front-end applications with APIs and backend services.";yes;"Proficiency in HTML, CSS, and vanilla JavaScript (ES6+).
+Basic knowledge of asynchronous programming (e.g., Promises, async/await).
+Familiarity with Git for version control.
+Experience with debugging in modern web browsers.";"50% Continuous Assessment (CC):
+
+    30%: Group project to build a modern front-end application.
+    20%: Individual assignments (coding exercises, tool configuration).
+
+50% Final Exam (Écrit/Oral): Practical problem-solving and debugging.";"    Introduction to Modern Front-End Development
+        Evolution of front-end technologies
+        SPA (Single Page Application) principles and trade-offs
+
+    JavaScript Frameworks
+        React: Component-based design, hooks, and state management
+        Vue/Angular: Alternatives and ecosystem overview
+
+    Advanced CSS Techniques
+        CSS-in-JS and Tailwind CSS
+        Responsive and accessible design
+
+    Tooling & Build Systems
+        Webpack, Vite, and other bundlers
+        Modern package managers (npm, yarn, pnpm)
+
+    State Management
+        Context API and Redux
+        Patterns for scalable state management
+
+    Testing and Debugging
+        Unit, integration, and end-to-end testing (Jest, Cypress)
+        Browser developer tools and performance optimization
+
+    Frontend-Backend Integration
+        Consuming REST and GraphQL APIs
+        Authentication and session handling (OAuth, JWT)
+
+    Deployment
+        CI/CD pipelines for frontend projects
+        Hosting on platforms like Netlify, Vercel
+
+Methods:
+
+    Hands-on coding workshops
+    Group discussions and code reviews
+    Weekly assignments with real-world scenarios";"1.2 Autonomously use advanced digital tools for one or more professions or research sectors in the field.
+8.3 Identify, use, and evaluate software management tools (performance analysis, testing, CI/CD pipelines, etc.).
+8.5 Develop front-end applications, both monolithic and multi-tier (desktop, web, mobile), and their human-system interfaces.";"2.3 Solve problems to develop new knowledge and procedures and integrate knowledge from different domains.
+4.3 Manage a project (design, leadership, team coordination, implementation and management, evaluation, dissemination) by leveraging multidisciplinary skills in a collaborative environment.
+8.4 Set up and maintain the software development environment and document the produced software.
+8.5 Develop front-end applications, both monolithic and multi-tier (desktop, web, mobile), and their human-system interfaces.
+8.3 Identify, use, and evaluate software management tools (performance analysis, testing, CI/CD pipelines, etc.).";;"JavaScript frameworks, React, Vue, Angular
+CSS-in-JS, Tailwind CSS
+State management, Redux
+Testing frameworks, REST, GraphQL
+Deployment, CI/CD";Français
+IBI/SBI;Cours obligatoire;M1-INF2 ;19,5;19,5;Nicolas, Irina, Carine;;;Frameworks, Business components and Web services;This graduate course presents technical layered  architecture concepts and their related integration patterns.;"Understand technical architectures and integration patterns 
+Develop microservice layered architecture and integrate them through existing patterns
+Evaluate and improve given architectures and integration strategy
+Select the revelant integration pattern according to business and technical context";yes;"Strong background and practice of Java Standard Edition (L3 MIAGE INF2) 
+Proficiency in development tools : Eclipse IDE, Git, Maven (L3 MIAGE DEVTOOL) 
+Knowledge of the main Object-Oriented Design patterns (L3 MIAGE ISI5) 
+Knowledge in Relational Databases and Database structure (L3 MIAGE INF9) 
+Understanding of XML and JSON ";"50% Continuous Assessment (CC)    
+   40%: Complete a project using Jakarta EE 8, due shortly after the end of the course. Teams of 4.
+   10%: Present an Enterprise Architecture Pattern / Integration Pattern during class. Individual work.
+50% Final Exam:
+    Analyze and propose an architecture based on a specification document.
+    Be able to comment on a given architecture, critique its composition, and suggest modifications using predefined patterns.";"Introduction — What are the roles of a software architect ? 
+Software Architecture : a Framework-based approach 
+Basics of Software Architecture 
+Inversion of Control with Jakarta EE8 – CDI 
+Data format Binding with Jakarta EE8 – JAXB 
+Rest Architectures and Implementation with Jakarta EE8 — JAXRS 
+Persistence with Jakarta EE8 — JPA 
+Message-based communication with Jakarta EE8 — JMS 
+Business Logic with Jakarta EE8 — EJB 
+Software Architecture Design: Enterprise Application Patterns 
+Architecture Integration : Enterprise Integration Pattern 
+
+- Course/Practicals
+- Pattern Presentation by students
+- Programming Assigment Practicals";"Model a business application technically using standard methods and tools: layered architecture and microservices, data management systems, components through best practice integration patterns.
+Develop multi-tier back-end applications (databases, APIs, web services, microservices, etc.). 
+Develop and integrate components into an existing system.""
+";Model a business application technically using standard methods and tools: layered architecture and microservices, data management systems, components through best practice integration patterns.;"[1] D. C. Ashmore, The Java EE Architect’s Handbook: How to Be a Successful Application Architect for Java EE Applications, 2nd ed. DVT Press, 2014.
+[2] A. Mahajan, M. K. Gupta, and S. Sundar, Cloud-Native Applications in Java: Build microservice-based cloud-native applications that dynamically scale. Packt Publishing Ltd, 2018.
+[3] G. Hohpe and B. Woolf, Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions. Addison-Wesley Professional, 2004.
+[5] M. Fowler, Patterns of Enterprise Application Architecture: Pattern Enterpr Applica Arch. Addison-Wesley, 2012.
+[6] S. Newman, Building Microservices. O’Reilly Media, 2015.
+[7] L. Fugaro and M. Vocale, Hands-On Cloud-Native Microservices with Jakarta EE: Build scalable and reactive microservices with Docker, Kubernetes, and OpenShift. Packt Publishing Ltd, 2019.
+[8] D. R. Heffelfinger, Java EE 8 Application Development. Packt Publishing, 2017.
+[9] C. Richardson, Microservices Patterns: With Examples in Java. Manning Publications, 2019.
+[10] Kolb, Pascal. Realization of eai patterns with apache camel. Universitätsbibliothek der Universität Stuttgart, 2008.";Java, Jakarta EE, layered architecture patterns, integration patterns, microservices;English
+IBI/SBI;Cours obligatoire;M1-INF3;15;15;Nicolas, Irina, Carine;;integrer une partie Responsable: (sensibiliser, mesurer) sur le cout des requetes;Bases de données non SQL;This course introduces students to the world of NoSQL databases, focusing on their architectures, use cases, and differences from traditional relational databases. Topics include document-oriented, columnar, key-value, and graph databases, exploring their applicability to modern, large-scale data challenges such as real-time analytics, distributed systems, and unstructured data.;"Understand the principles and characteristics of NoSQL databases.
+Compare NoSQL models with relational database systems.
+Evaluate and select the most appropriate NoSQL database for a given use case.
+Design, query, and optimize NoSQL databases for performance and scalability.
+Integrate NoSQL databases into modern application architectures.";;"Knowledge of SQL and relational database design.
+Basic understanding of distributed systems and data structures.
+Familiarity with programming languages (e.g., Python, Java, or JavaScript).
+Experience with JSON and data serialization formats.";"50% Continuous Assessment (CC):
+
+    30%: Group project implementing a NoSQL database solution for a real-world problem.
+    20%: Practical assignments on NoSQL tools and queries.
+
+50% Final Exam (Écrit/Oral):
+
+    Conceptual and practical application of NoSQL principles.";"    Introduction to NoSQL
+        History and evolution of NoSQL databases
+        Limitations of relational databases and when to use NoSQL
+
+    Key-Value Databases
+        Overview and use cases (e.g., Redis, DynamoDB)
+        Partitioning and replication
+
+    Document-Oriented Databases
+        Overview (e.g., MongoDB, CouchDB)
+        Querying and indexing
+
+    Column-Family Databases
+        Overview (e.g., Cassandra, HBase)
+        Data modeling and storage
+
+    Graph Databases
+        Overview (e.g., Neo4j)
+        Graph traversals and queries
+
+    Data Consistency Models
+        CAP theorem and BASE principles
+        Trade-offs in NoSQL database consistency
+
+    Performance Optimization
+        Indexing, caching, and query optimization
+        Sharding and scaling NoSQL databases
+
+    Integration and Ecosystem
+        Combining NoSQL with relational databases
+        NoSQL in modern applications (e.g., microservices, big data pipelines)
+
+Methods:
+
+    Hands-on labs with tools like MongoDB, Cassandra, and Neo4j.
+    Real-world case studies and group discussions.
+    Weekly exercises with progressively complex NoSQL challenges.";"2.3 Solve problems to develop new knowledge and procedures and integrate knowledge from different domains.
+6.3 Design and deploy distributed software architectures on supporting platforms (Cloud, virtual machines, containers, middleware, etc.).
+8.6 Develop back-end applications, including multi-tier architectures (databases, application servers, APIs, web services).
+8.7 Develop and integrate components into existing systems (specific software, ERP, EAI, etc.).
+1.2 Autonomously use advanced digital tools for one or more professions or research sectors in the field.
+6.1 Administer dedicated software infrastructures (DBMS, directory services, messaging systems, application servers, CMS, CRM, etc.).
+8.3 Identify, use, and evaluate software management tools (performance analysis, tests, CI/CD pipelines, etc.).";"1.2 Autonomously use advanced digital tools for one or more professions or research sectors in the field.
+6.1 Administer dedicated software infrastructures (DBMS, directory services, messaging systems, application servers, CMS, CRM, etc.).
+8.3 Identify, use, and evaluate software management tools (performance analysis, tests, CI/CD pipelines, etc.).";;"NoSQL databases, MongoDB, Cassandra, Redis, Neo4j
+Document-oriented databases, Key-Value stores, Graph databases
+CAP theorem, BASE model
+Distributed systems, scalability, sharding, replication
+Big Data, real-time analytics";Français
+IBI/SBI;Cours obligatoire;M1-ISI1;15;15;Rebecca;;parler du diagramme d'activité, diagramme d'état et diagramme de composant pour qu'ils sachent a quoi ca ressemble et savoir les interpreter. / travailler sur un modele de class pour le rendre conforme a un diagramme de transition d'état.;Modèles de l'ingénierie des SI;This course presents the three main diagrams of UML: use case diagram, class diagram, and sequence diagram, and their relationships.;"Modeliser un système en UML en articulant les trois diagrammes.
+Connaitre l'ensemble des diagrammes d'UML.
+Interpreter : un diagramme d'activités UML, un diagramme de composants, un diagramme de déploiement.";tbd;Knowledge about Modeling (L3-ISI1 : Méthodes d'ingénierie des SI : fondamentaux);"Sont prises en compte:
+- notes de QCM/Quizz, avec un coefficient très léger
+- notes de projet, avec un coefficient plus important
+- note de participation 
+- DST final
+";"Panorama UML 
+Analyse - Exigences, Cas d’utilisation et leurs scénarios textuels
+Conception - Scénarios et Diagramme de classes associées
+Analyse et conception - Des exigences aux classes  
+Evolution d'un projet.
+Chaque enseignement contient une partie cours, une partie TD et une partie Projet.";"Analyser le fonctionnement d’une organisation pour concevoir un système en utilisant des outils spécialisés de modélisation 
+Modéliser de manière technique une application d’entreprise en utilisant des méthodes et outils standards 
+Modéliser de manière fonctionnelle une application d’entreprise avec des méthodes et outils standards : exigences, processus métier.";"Modéliser une application d’entreprise avec UML en réponse aux besoins d'une organisation.
+Garantir la complétude et la cohérence des modèles UML.";"« UML 2 en action » 4ème édition,  P. Roques, F. Vallée,  Editions Eyrolles – juillet 2011.
+UML 2 .5 par la pratique, 8ème édition, P. Roques, Editions Eyrolles - avril 2018.
+« Mémento UML 2.5», P. Roques, Editions Eyrolles - novembre 2020.
+«Introduction à UML 2»,  R. Milles, K. Hamilton,  Editions O'Reilly - juillet 2006.
+« Le processus unifié de développement logiciel » I. Jacobson G. Booch J. Rumbaugh,  Editions Eyrolles - 2000.
+« UML Principes de modélisation » R. Fannader, H. Leroux, Dunod - 1999";UML, modélisation conceptuelle, exigence, conception orientée objet;francais
+IBI;Cours obligatoire;M1-ISI2 ;15;15;Camille;ce cours sera assuré par kamil Dakiche - - je lui ait envoyé le syllabus prévisonnel;orienté IA;Gestion de projet avancée;Ce cours vise à fournir une compréhension approfondie de la gestion de projet dans le cadre spécifique du développement de systèmes d'information intégrant des composants d'IA ou utilisant des IA. Partant d'un panorama des méthodologies classiques de gestion de projet (cycle en V, agile, hybride), il  explore  les particularités organisationnelles, techniques et éthiques propres aux projets IA : incertitude des performances, validation des modèles, gouvernance des données, auditabilité, biais, conformité réglementaire, etc. Les étudiants apprendront à adapter les bonnes pratiques de gestion aux spécificités des projets IA et à concevoir une gouvernance adaptée à ces projets.;"A la fin de ce cours, les étudiants doivent comprendre les spécificités des projets de développement intégrant de l’IA (données, performance, non-déterminisme, validation).
+Ils doivent savoir identifier les étapes clés d’un projet IA et leurs exigences en matière de gestion, documentation, validation et adapter les cycles de vie projet (cascade, agile, CRISP-DM, etc.) aux contraintes de l’ingénierie IA mais aussi intégrant l'usage de l'IA. Ils doivent comprendre la démarche de gouvernance des projets IA, intégrant les enjeux éthiques, réglementaires (RGPD, IA Act), et qualité logicielle traditionnelle.
+Enfin, ils devront être en mesure de mettre en œuvre les techniques de suivi adaptées : qualité des données, monitoring des modèles, et reproductibilité des résultats.";;"Connaissances de base en gestion de projet (cycle de vie, planification, suivi).
+Premières notions d’intelligence artificielle (modèles, apprentissage, jeux de données).
+Compréhension générale des systèmes d'information et de leur architecture.";Evaluation continue intégrale  (ECI)  ;Ce cours adresse la technique de gestion de projet général. Son approche se veut globale et applicable à toutes situations, déclinable en technique particulière (y compris aux méthodes de projets en informatique). Il s’organise autour des problématiques suivantes : Les principes debase, gestion etmanagement, les acteurs duprojet, objectifs, enjeux etpérimètre, évaluation desrisques, intervenants externes, le cahier descharges, planification et estimation descharges, le budget, le lancement duprojet, planification et décomposition parétape, outils pour la maîtrise de la planificationdétaillée, la communication parétape, piloter, anticiper,maîtriser, méthodologie et outils de suivi, les essais et lestests, le manuel derecette, bilan technique ethumains. Le but de ce cours est de fournir, aux étudiants, les bases théoriques de la gestion de projets et les outils pour leur mise en œuvre.;"7.1 Définir, adapter et mettre en œuvre une méthode de gestion de projet	
+7.2 Définir les ressources d’un projet (humaines, financières et techniques) et gérer leur affectation
+7.5 Choisir et mettre en œuvre les outils (normes, méthodes et technologies) de sécurité et de qualité satisfaisant les exigences du projet	
+7.6 Piloter un projet au quotidien : avancement fonctionnel, relation client, animation d’équipes, gestion de sous-traitance, conduite du changement, …	
+7.7 Adapter en continu le pilotage du projet en fonction des changements rencontrés (fonctionnalités, ressources, infrastructure…)
+
+";"7.1 Définir, adapter et mettre en œuvre une méthode de gestion de projet	
+7.2 Définir les ressources d’un projet (humaines, financières et techniques) et gérer leur affectation
+7.5 Choisir et mettre en œuvre les outils (normes, méthodes et technologies) de sécurité et de qualité satisfaisant les exigences du projet	
+
+
+";;Organisation, Planification, Structuration, Contrôles;Français
+SBI;Cours obligatoire;M1-ISI2;15;15;Camille;Ce cours sera assuré par Karin Rolland - je lui ait envoyé le syllabus prévisonnel;"orientée Numérique Responsable
+
+Methodologies agiles responsables ? Gestion des risques environnementaux et sociaux dans les projets ?";Gestion de projet avancée;"Ce cours aborde les enjeux de durabilité, d’éthique, et de responsabilité sociale et environnementale dans la gestion de projets numériques. Il prépare les étudiants à intégrer les principes du numérique responsable dans toutes les phases du cycle de vie d’un projet SI : éco-conception, sobriété numérique, inclusivité, accessibilité, résilience. Partant d'un panorama des méthodologies classiques de gestion de projet (cycle en V, agile, hybride),  le cours explorera les outils et méthodes permettant d’adapter les pratiques classiques de gestion de projet pour y inclure les exigences liées à la RSE et aux politiques de soutenabilité numérique. Il met l’accent sur la gouvernance responsable des projets, les indicateurs d’impact, et les leviers techniques et organisationnels pour la soutenabilité des systèmes.
+";À l’issue de ce cours, les étudiants seront en mesure de comprendre les principaux enjeux du numérique responsable, qu’ils soient environnementaux, sociaux, éthiques ou économiques. Ils apprendront à concevoir et piloter des projets en intégrant une démarche de gouvernance RSE adaptée aux systèmes d'information, en mobilisant des cadres d’analyse, des indicateurs d’impact et des outils opérationnels. Ils sauront identifier les leviers techniques et organisationnels permettant de réduire l’empreinte environnementale des projets numériques, notamment à travers l’éco-conception logicielle, l’accessibilité, la sobriété numérique ou encore la résilience des systèmes. Enfin, ils doivent être capables d’adapter les méthodes de gestion de projet traditionnelles pour y intégrer les exigences de durabilité dès les premières phases de conception, jusqu’à l’évaluation de l’impact global du projet. ;;"Connaissances fondamentales en gestion de projet (structuration, planification, conduite).
+Sensibilité ou intérêt pour les problématiques de responsabilité sociétale des entreprises (RSE).
+Notions de base sur l’architecture et les cycles de vie des systèmes d’information.
+";Evaluation continue intégrale  (ECI)  ;Ce cours adresse la technique de gestion de projet général. Son approche se veut globale et applicable à toutes situations, déclinable en technique particulière (y compris aux méthodes de projets en informatique). Il s’organise autour des problématiques suivantes : Les principes debase, gestion etmanagement, les acteurs duprojet, objectifs, enjeux etpérimètre, évaluation desrisques, intervenants externes, le cahier descharges, planification et estimation descharges, le budget, le lancement duprojet, planification et décomposition parétape, outils pour la maîtrise de la planificationdétaillée, la communication parétape, piloter, anticiper,maîtriser, méthodologie et outils de suivi, les essais et lestests, le manuel derecette, bilan technique ethumains. Le but de ce cours est de fournir, aux étudiants, les bases théoriques de la gestion de projets et les outils pour leur mise en œuvre.;"7.1 Définir, adapter et mettre en œuvre une méthode de gestion de projet	
+7.1bis Définir, adapter et mettre en œuvre une ingénierie responsable	
+7.2 Définir les ressources d’un projet (humaines, financières et techniques) et gérer leur affectation
+7.5 Choisir et mettre en œuvre les outils (normes, méthodes et technologies) de sécurité et de qualité satisfaisant les exigences du projet	
+7.6 Piloter un projet au quotidien : avancement fonctionnel, relation client, animation d’équipes, gestion de sous-traitance, conduite du changement, …	
+7.7 Adapter en continu le pilotage du projet en fonction des changements rencontrés (fonctionnalités, ressources, infrastructure…)
+
+";"7.1 Définir, adapter et mettre en œuvre une méthode de gestion de projet	
+7.1bis Définir, adapter et mettre en œuvre une ingénierie responsable	
+7.2 Définir les ressources d’un projet (humaines, financières et techniques) et gérer leur affectation
+";;Organisation, Planification, Structuration, Contrôles;Français
+IBI/SBI;Cours obligatoire;M1-MM1;15;15;;Shuyan ? J'ai envoyé la descriptiona Shuyan pour qu'elle valide;;Méthodes statistiques;"Ce module introduit les concepts fondamentaux de la statistique et des probabilités, essentiels pour l’analyse et l’interprétation des données. Il vise à fournir aux étudiants une base solide en statistique descriptive et inférentielle, ainsi qu'une maîtrise des outils nécessaires pour manipuler et visualiser des données efficacement.
+Ce module allie théorie et pratique afin de permettre aux étudiants d’exploiter efficacement les outils statistiques pour l’aide à la décision et l’analyse de données.";"Connaissances théoriques à développer
+- Le vocabulaire et les notions fondamentaux de la théorie desprobabilités
+- Les principes de base de la statistique inférentielle
+Compétences techniques à développer
+- La création et l’interprétation des nuages de points et les histogrammes
+- Le calcul, la simulation et la visualisation à l’aide du logiciel R";;"Calcul de base
+Algébre linéaire de base";Evaluation continue intégrale  (ECI)  ;"1. Le modèle probabiliste
+2. Variables aléatoires
+3. Statistique descriptive
+4. Introduction aux statistiques inférentielles";"9.2 Appliquer les techniques de statistiques et de fouille de données dans un composant logiciel	
+9.3 Appliquer des concepts mathématiques pour paramétrer et intégrer un composant/service d’Intelligence Artificielle dans une application logicielle";"9.2 Appliquer les techniques de statistiques et de fouille de données dans un composant logiciel	";"1. G. Saporta, Probabilités, analyse des données et statistique, Technip, 2011
+2. J. Beirlant, Y. Goegebeur, J. Segers and J. L. Teugels. Statistics of extremes: theory and applications, Wiley, 2004";Probabilités, Statistiques, R;Français
+IBI/SBI;Cours obligatoire;M1-MM2;15;15;Daniel, Alexandre Skoda, Arianna Novaro;;;Graphes et algorithmes;" Ce cours présente les principales notions de théorie des graphes, ainsi que les algorithmes de résolution de problèmes classiques sur les graphes.
+ Ces connaissances sont utiles en informatique et recherche opérationnelle et ont de nombreuses applications dans les réseaux et le management industriel.";"        1. Savoir représenter et stocker les graphes
+        2. Etudier et appliquer des algorithmes classiques de la théorie des graphes pour résoudre des problèmes dans les réseaux
+        3. Comparer des algorithmes en analysant leur complexité en taille et en temps de calcul
+
+";;Notions de bases de la théorie des graphes (graphe, graphe orienté, chemin, cycle, arbre,...);Evaluation continue intégrale  (ECI)  ;"   Nous considérerons les problèmes suivants:
+          - Représentation d'un graphe en mémoire
+          - Arbre couvrant de poids minimum
+          - Plus court chemin
+          - Ordonnancement
+          - Flot maximum dans un réseau
+          - Transport
+          - Couplage";"9.1 Utiliser des méthodes combinatoires, probabilistes ou concurrentielles comme support à la décision ou à l’optimisation d’un processus, produit ou service	
+9.3 Appliquer des concepts mathématiques pour paramétrer et intégrer un composant/service d’Intelligence Artificielle dans une application logicielle";"9.1 Utiliser des méthodes combinatoires, probabilistes ou concurrentielles comme support à la décision ou à l’optimisation d’un processus, produit ou service	
+";"I. Charon, A. Germa, O. Hudry. Méthodes d'optimisation combinatoire. Masson.
+C. Berge. Graphes. Dunod, 1983.
+M. Gondran, M. Minoux. Graphes et algorithmes. Eyrolles, 1979.";graphe, chemin, arbre, flot, complexité;Français
+IBI/SBI;Cours obligatoire;M1-GO1;12;12;Camille;;;Droit;Ce cours a pour objectif de doter les étudiants des connaissances juridiques fondamentales nécessaires à tout chef de projet ou assistant à la maîtrise d’ouvrage dans le domaine des systèmes d'information.  Pour commencer, il propose une initiation claire et progressive aux grands principes du droit public et privé, aux cadres contractuels, à la responsabilité civile et pénale, ainsi qu’aux mécanismes de protection des données personnelles et de la propriété intellectuelle. Puis, le cours visera à sensibiliser les étudiants aux enjeux juridiques spécifiques que soulèvent les projets intégrant des technologies d’IA, ainsi qu’aux implications réglementaires liées aux politiques de développement durable et de responsabilité sociétale des entreprises (RSE). Il explorera notamment les régulations émergentes comme le RGPD, le futur règlement européen sur l’IA (AI Act), les obligations de sobriété numérique, et les dispositifs juridiques favorisant l’inclusivité, la transparence et la soutenabilité des systèmes numériques.;À l’issue du cours, les étudiants auront acquis les bases du raisonnement juridique leur permettant d’interagir efficacement avec des juristes dans le cadre de projets informatiques. Ils devront savoir repérer les zones de risque juridique au sein d’un projet, construire les éléments de base d’un cadre contractuel adapté, et intégrer dans leurs choix de conception les principales normes applicables aux systèmes d’information. Ils devront comprendre les responsabilités des différents acteurs d’un projet, ainsi que les mécanismes encadrant la collecte, l’exploitation et la sécurisation des données. Ils devront également être capables d’appréhender les implications spécifiques de l’IA en matière de transparence, de biais, de responsabilité algorithmique ou encore de certification réglementaire. Enfin, ils devront savoir prendre en compte, dès la phase de cadrage d’un projet, les exigences juridiques et normatives relatives au développement durable, à l’accessibilité, à l’éco-conception logicielle, et à la conformité aux politiques RSE.;;Aucun;Evaluation continue intégrale  (ECI)  ;;"4.1 Gérer des contextes professionnels ou d’études complexes, imprévisibles et qui nécessitent des approches stratégiques nouvelles
+4.5 Respecter les principes d’éthique, de déontologie et de responsabilité sociétale et environnementale	
+5.1 Analyser l’environnement (économique, juridique et sociétal), le fonctionnement et la structure d’une organisation";"4.5 Respecter les principes d’éthique, de déontologie et de responsabilité sociétale et environnementale	
+5.1 Analyser l’environnement (économique, juridique et sociétal), le fonctionnement et la structure d’une organisation";;;Français
+IBI/SBI;Cours obligatoire;M1-TC1;0;15;Carine;Brigitte ?;(+MBTI);Communiquer en mode projet;"•	Différencier projet et problèmes
+•	Vocabulaire du mode projet
+•	Définir une problématique
+•	Management et leadership : deux notions distinctes et liées
+•	Analyser les motivations des contributeurs au projet
+•	Renforcer son impact et son influence
+•	Identifier son type MBTI® et mieux comprendre différences et complémentarités";"Faire découvrir à de futurs professionnels de l'informatique appliquée en entreprise l'impact pour soi et pour les autres des principaux constituants de la communication interpersonnelle, en s'appuyant : 
+- sur les pères fondateurs de la discipline (Watzlawick, Rodgers, Porter, Salter et Wolpe, Bateson...)
+- et sur un mode pédagogique visant à opérationnaliser les comportements efficaces en communication : 
+o   par le jeu : exercices pratiques,
+o   et par l'enjeu : restitution écrite et soutenance orale d'un projet de communication, conduit en groupe et évalué en mode « jury ».";Oui;Il est souhaitable d'avoir acquis préalablement les bases de la communication interpersonnelle (cf Communication interpersonnelle - L3TC);Evaluation continue intégrale  (ECI)  ;"S'adressant à de futurs praticiens, l'animation des différents séquences s'appuie essentiellement sur la pratique : les apports théoriques, indispensables, sont brefs et complétés par des recherches personnelles. 
+Une série d'ateliers vient solliciter les étudiants, pour les amener à mobiliser leurs aptitudes, s'entraîner à les transformer en capacités, pour viser le renforcement de leurs compétences en communication.
+L’outil M.B.T.I® (Myers-Briggs Type Indicator), sous sa forme numérique (M.B.T.I Complete®) est utilisé pour mieux se connaître et se situer dans un cadre qui décrit les différences de personnalité d'une manière positive et constructive, et pour appréhender les différences qui peuvent exister entre les personnes et comprendre comment les différents types peuvent être complémentaires.
+Un projet de communication est conduit en équipe-projet constituée par l'intervenant ; sa problématique, de nature obligatoirement professionnelle, lui est soumise pour approbation ; une double restitution, écrite et orale, est présentée par l'équipe et fait l'objet d'une évaluation.";"Expliquer les ingrédients de la cohésion et de la motivation d'un groupe
+Identifier les différents facteurs de motivation au travail
+Identifier les styles de leadership au sein d'une équipe et les comportements pertinents en mode conduite de projet
+Reconnaître les signes selon lesquels une équipe peut dysfonctionner
+Connaître son mode préférentiel de relations interpersonnelles et son style de communication
+Décrire au sein d'une équipe les types de personnalité et les traduire en mode d'action préférentiel
+Synthétiser un ensemble de documents ou d'informations avec une démarche scientifique
+Concevoir un support d'exposé pertinent au regard d'une problématique professionnelle
+Utiliser efficacement un support d'exposé lors d'une présentation orale à finalité professionnelle
+Réaliser une présentation orale et écrite dans une situation professionnelle";" - Identifier, sélectionner et analyser avec esprit critique diverses ressources spécialisées pour documenter un sujet et synthétiser ces données en vue de leur exploitation
+- Communiquer à des fins de formation ou de transfert de connaissances, par oral et par écrit, en français et dans au moins une langue étrangère";    C. Berge. Graphes. Dunod, 1983.;;Français
+IBI/SBI;Cours obligatoire;M1-REC1;0;15;Rébecca + les autres;;;Introduction à la recherche et aux projets scientifiques;In this class we discuss the research in IS and SE.  First, we address the following questions: what is research? What is research problerm? Second, we discuss the research projects and their organisation in industry and academia. ;"The objective of this class is to introduce research project and research methodology to the students. Upon termination of this class, the students will understand: 
+- what is practical problem and what is research problem 
+- what is qualitative and quantitative research and when to use them
+- what are the research papers and why identifying and reading related works is important 
+The student will be able to:
+- choose a research problem and identify the body or relevant research literature
+- formulate a research question and evaluate its quality 
+- propose an adequate research methodology to answer this research question
+- elaborate a plan for the research project and justify its feasibility";yes;Aucun;Evaluation continue intégrale  (ECI)  ;;"2.1 Mobiliser des savoirs hautement spécialisés, dont certains sont à l’avant-garde du savoir dans un domaine de travail ou d’études, comme base d’une pensée originale	
+2.2 Développer une conscience critique des savoirs dans un domaine et/ou à l’interface de plusieurs domaines
+10.4 Développer un projet de recherche";"2.2 Développer une conscience critique des savoirs dans un domaine et/ou à l’interface de plusieurs domaines
+";;Recherche, Etat de l'art, Analyse critique, Litterature scientifique;Français
+IBI/SBI;Cours obligatoire;M1-GO2;0;18;Carine;Brigitte ?;;"Atelier ""Créativité & innovation""";"• Le numérique : le creuset de l’innovation aujourd’hui
+• Créativité ? Innovation ?Invention
+• 6 exercices de créativité
+• L’approche par le Design (Design Thinking)
+• 6 ateliers pour concevoir de nouveaux modèles
+• Opérationnaliser un projet innovant : le Business Model Canvas
+• Se projeter : conception et présentation d’une initiative innovante, conduite en mode workshop agile et restituée en groupe";"Le contexte entrepreneurial actuel est affecté par des facteurs puissants (incertitude, interdépendance, individualisme, digitalisation), qui invalident les modèles traditionnels d’organisation et de management, et rendent indispensable l’acquisition de capacités nouvelles, contribuant à l’intelligence collective par la créativité et par l’innovation.
+S’adressant à de futurs praticiens de la transformation numérique, ces ateliers ont pour finalité de leur faire découvrir et expérimenter les processus favorisants tels qu’ils sont pratiqués dans les entreprises aujourd’hui (sérendipité, agilité, mode workshop, autonomisation), en privilégiant l’apprentissage par l’expérience (Kolb) plutôt que l’approche classique apports théoriques/mise en pratique.";oui;Aucun;Evaluation continue intégrale  (ECI)  ;"L’animation préfigure les nouvelles pratiques que les participants rencontrent ou vont rencontrer en entreprise :
+1. Expérimentation par expérience concrète,
+2. Observation réflexive,
+3. Conceptualisation
+4. Mise en pratique
+Il s’agit de cibler d’avantage la capacité, beaucoup plus liée à l’action et au geste métier, que la compétence proprement dite, qui met plus de temps à se former et nécessite une immersion en situation réelle.";"Initier des projets
+Créer en situation professionnelle
+Innover en situation professionnelle
+Confronter des idées
+Identifier la contribution du numérique dans les process innovants actuels
+Différentier Innovation, créativité et invention
+Connaître les approches mobilisant la créativité pratiquées en entreprise
+Concevoir un ""business model"" dans le cadre d’une création d’activité dans le numérique
+Identifier les différents types d'innovation (innovation de rupture, incrémentale, managériale…)
+Piloter un projet d'innovation, de création d'entreprise ou d'activité, de l’idée à la mise en œuvre."; ;    M. Gondran, M. Minoux. Graphes et algorithmes. Eyrolles, 1979.;;Français
+IBI/SBI;Cours obligatoire;M1-INF4;0;15;Nourhène, Camille, Daniel;;(Programmation);Atelier Python pour l'analyse de données ;Ce cours a pour but d'acquérir les compétences nécessaires pour manipuler, analyser et visualiser des données en utilisant des bibliothèques Python, comme par exemple Pandas, NumPy, Matplotlib, Seaborn, etc.;"À la fin du cours, les étudiants devront être capables de :
+•	Manipuler des données 
+•	Appliquer des méthodes de nettoyage et de transformation des données.
+•	Réaliser des analyses statistiques et des visualisations avancées.
+•	Interpréter les résultats d’une analyse de données et les présenter de manière claire.
+";tbd;"•	les bases de la programmation Python
+•	les principes fondamentaux de l’algorithmique
+";"notes de participation
+notes de projets (mise en œuvre sur un cas réel)";"- Panaroma des bibliothèques de Python pour la  l'analyse et la visualisation des données. 
+- Préparation de l’environnement de travail, 
+- Manipulation des données , 
+-Analyse de données 
+- Visualisation des données 
+Chaque séance présente une tâche spécifique (manipulation, analyse ou visualisation des données), accompagnée de la bibliothèque standard correspondante permettant de réaliser cette tâche, suivie d'une mise en œuvre pratique sur un cas réel.";"
+- Mettre en place et maintenir l'environnement de développement logiciel assisté par l'IA";- Appliquer des concepts mathématiques pour paramétrer et intégrer un composant/service d’Intelligence Artificielle dans une application logicielle;"Jakobowicz, Emmanuel. Python 
+pour le data scientist - 2e éd.: 
+Des bases du langage au 
+machine learning. France, Dunod, 2021.";- analyse, visualisation, nettoyage, transformation, données, science de données;Français
+SBI;Cours obligatoire;M1-ISI6;0;15;Camille, Nourhene;;chatbot, NLP --> attention c'est un cours pour le M2 sur les SI responsables... (accessibilité, confort, bien etre ?);Atelier Nouvelles interfaces des SI;Cet atelier explorera les nouvelles formes d’IHM qui transforment les usages des SI. Il proposera une immersion dans les technologies émergentes en matière d’interface utilisateur: interfaces conversationnelles (chatbots, agents virtuels), vocales (assistants vocaux, commandes orales), gestuelles, émotionnelles, et contextuelles, etc. L’atelier visera aussi à familiariser les étudiants avec les principes de conception, d’intégration et d’évaluation de ces interfaces dans des environnements applicatifs réels, tout en les sensibilisant aux enjeux éthiques et sociétaux qu’elles soulèvent: enjeux d’accessibilité numérique, de confort d’usage et de bien-être des utilisateurs. Il questionne la conception inclusive des interfaces, leur capacité à répondre aux besoins de publics divers (personnes en situation de handicap, utilisateurs non technophiles, etc.), ainsi que les effets cognitifs et psycho-sociaux induits par une interaction prolongée avec des dispositifs technologiques. L'approche pédagogique reposera sur des études de cas, des expérimentations concrètes et la mise en œuvre de prototypes.;À l’issue du cours, les étudiants devront être en mesure de concevoir des interfaces de SI  tenant compte à la fois des capacités technologiques actuelles et des impératifs d’accessibilité, d’éthique et de bien-être. Ils devront savoir prototyper des solutions interactives en intégrant des critères d’utilisabilité avancés. Enfin, ils devont montrer une approche critique sur les effets d’usage de ces interfaces, par exemple en matière de charge cognitive, de rapport à la machine et d’acceptabilité sociale.;;Aucun;Evaluation continue intégrale  (ECI)  ;;;;;;Français

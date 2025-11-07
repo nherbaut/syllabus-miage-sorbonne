@@ -1,0 +1,354 @@
+promo;;Code;Cours;TD;;;;Libellé;Description;Objectifs;Ouvert aux étudiants en échange;Pré-requis obligatoires;Contrôle des connaissances;Syllabus / Méthodes Pédagogiques;Compétences Visées;Compétences Requises;Bibliographie;mots clés;Langues d'enseignement;
+IBI/SBI;Cours obligatoire;M1-INF5;15;15;Daniel, Nicolas;;(niveau 3 - parsing);Algorithmique Avancée;"Avec la multiplication des formats de fichiers texte structurés (XML, Json,…) il devient incontournable d’avoir des méthodes et outils pour faire l’analyse de tels fichiers. Par analyse (parsing en anglais) on entend ici : écrire un programme informatique qui soit capable de lire et « comprendre » le contenu du document structuré ; c’est-à-dire d’en créer au final une représentation interne en mémoire facilement utilisable.
+Le but de ce cours est de fournir aux étudiants les bases théoriques de ces méthodes et les outils pour leur mise en œuvre dans le cadre de la Programmation Orientée Objet. 
+";"A la fin de ce cours, les étudiants doivent avoir compris les notions de documents structurés, les concepts théoriques de l’analyse lexicale et syntaxique ainsi que leurs liens avec la théorie de langages. 
+A partir d’un document structuré, ils doivent être capables de décrire son niveau lexical (notions d’expressions régulières, automates) et son niveau syntaxique (notions de langages context-free, grammaire LL(k)) de manière adéquate pour les donner en entrée à un générateur d’analyseurs. Ils doivent être capables de modifier l’analyseur généré pour qu’il retourne une représentation interne du document analysé. La représentation interne doit être modélisée et implémentée en Orienté Objet.
+";;Bases de l'algorithmique et de la POO;Evaluation continue intégrale  (ECI)  ;"• Notion d’analyse lexicale, expressions régulières et automates.
+• Utilisation d’une bibliothèque Orientée Objet pour l’analyse lexicale.
+• Bases de la théorie des langages : grammaires, opérateurs, lien avec les expressions régulières et automates, ambiguïté, récursivité…
+• Notion d’analyse syntaxique : rôle, grammaires et analyseurs prédictifs LL(k).
+• Utilisation d’un générateur d’analyseurs (lexicaux et syntaxiques) Orienté Objet
+• Paramétrage de l’analyseur généré pour produire une représentation interne (en Orienté Objet) du document analysé.
+";8.6 Développer des applications back-end multi-tiers (bases de données, serveur d’application, API, WEB Services, ...).;8.6 Développer des applications back-end multi-tiers (bases de données, serveur d’application, API, WEB Services, ...).;"- Aho, R. Sethi, J. Ullman. Compilateurs: principes, techniques et outils, InterEditions.
+- Appel. Modern Compiler Construction in Java, Addison Wesley
+";"Analyse lexicale,  Analyse syntaxique,  Langages/grammaires régulières, Automates d’états finis, Langages/grammaires context-free, Générateur d’analyseurs
+";Français ;
+IBI/SBI;Cours obligatoire;M1-INF6;12;15;Nicolas;Maxime;integrer responsable (mesurer);Cloud computing;This course explores the principles and practices of cloud computing, focusing on its architectures, deployment models, and services. Students will learn about key technologies driving cloud computing, such as virtualization, containerization, and orchestration. The course also emphasizes cloud-based application development, deployment, and management with a strong focus on scalability, security, and cost-efficiency.;"Understand the fundamental concepts and service models of cloud computing (IaaS, PaaS, SaaS).
+Explore the architectures and technologies behind cloud infrastructure.
+Learn to deploy, manage, and monitor applications in the cloud.
+Analyze cloud computing cost models and optimize for efficiency.
+Implement security best practices in cloud environments.";yes;"Familiarity with operating systems and networking principles.
+Basic knowledge of virtualization technologies (e.g., virtual machines).
+Proficiency in a programming language (e.g., Python, Java, or JavaScript).
+Experience with Git and version control systems.";"50% Continuous Assessment (CC):
+
+    30%: Group project deploying a cloud-based solution using IaaS/PaaS providers.
+    20%: Individual practical assignments (e.g., container orchestration, scaling applications).
+
+50% Final Exam (Écrit/Oral):
+
+    Theoretical and practical questions on cloud concepts and practices.";"    Introduction to Cloud Computing
+        Evolution of cloud computing and its importance
+        Cloud service models: IaaS, PaaS, SaaS
+
+    Virtualization and Containerization
+        Virtual machines (VMs) vs. containers (e.g., Docker)
+        Benefits and trade-offs
+
+    Cloud Deployment Models
+        Public, private, hybrid, and multi-cloud environments
+        Use cases and scenarios
+
+    Cloud Service Providers
+        Overview of AWS, Azure, Google Cloud, and others
+        Hands-on experience with one or more platforms
+
+    Scalability and Orchestration
+        Auto-scaling and load balancing
+        Kubernetes and container orchestration
+
+    Cloud Security
+        Identity and access management (IAM)
+        Data protection, encryption, and compliance
+
+    Cloud Cost Management
+        Cost models and billing in the cloud
+        Strategies for cost optimization
+
+    Serverless and Edge Computing
+        Introduction to serverless computing (e.g., AWS Lambda, Azure Functions)
+        Emerging trends: edge computing and fog computing
+
+    Monitoring and Logging
+        Tools and best practices for cloud application monitoring
+        Logging frameworks and performance metrics
+
+Methods:
+
+    Practical labs on major cloud platforms (AWS, Google Cloud, Azure).
+    Group projects involving real-world cloud application deployment.
+    Weekly quizzes and hands-on assignments for skill reinforcement.";"2.3 Solve problems to develop new knowledge and procedures and integrate knowledge from different domains.
+6.3 Design and deploy distributed software architectures on supporting platforms (Cloud, virtual machines, containers, middleware, etc.).
+8.6 Develop back-end applications, including multi-tier architectures (databases, application servers, APIs, web services).
+8.7 Develop and integrate components into existing systems (specific software, ERP, EAI, etc.).
+7.1 Define, adapt, and implement a project management method.
+1.2 Autonomously use advanced digital tools for one or more professions or research sectors in the field.
+6.4 Define the architecture of the software infrastructure using the most appropriate paradigm (services, web, cloud).
+8.3 Identify, use, and evaluate software management tools (performance analysis, tests, CI/CD pipelines, etc.).";"1.2 Autonomously use advanced digital tools for one or more professions or research sectors in the field.
+6.4 Define the architecture of the software infrastructure using the most appropriate paradigm (services, web, cloud).
+8.3 Identify, use, and evaluate software management tools (performance analysis, tests, CI/CD pipelines, etc.).";;"    Cloud computing, virtualization, containerization, Docker, Kubernetes
+    IaaS, PaaS, SaaS, serverless computing
+    AWS, Google Cloud, Azure
+    Scalability, orchestration, load balancing
+    Cloud security, cost optimization, edge computing";Français;
+IBI;Cours obligatoire;M1-INF8;15;15;Nourhène, Camille, Daniel;;(bases + un peu de codage) - avant Machine learning;Introduction à l'intelligence artificielle ;Ce cours propose un panorama des techniques de l'intelligence artificielle (IA) en présentant les concepts clés du domaine. Il explore en détail les approches symboliques et connexionnistes, avec pour objectif de permettre aux étudiants de mettre en œuvre une méthode d’IA symbolique ainsi qu’une méthode d’IA connexionniste dans un cas concret et simple.;"À la fin de ce cours, les étudiants seront capables de :
+-	Acquérir une compréhension approfondie des principales techniques de l'intelligence artificielle, avec un focus particulier sur les approches symboliques et connexionnistes.
+-	Maîtriser des techniques essentielles de l'IA, telles que le machine learning, les chatbots, le traitement du langage naturel (NLP), etc.
+-	Se familiariser avec les infrastructures techniques nécessaires au développement, au déploiement et à la gestion de projets d'IA.
+-	Appliquer une approche symbolique et connexionniste à des cas d’utilisation concrets dans les systèmes d'information (SI), en tenant compte des spécificités et des défis propres à chaque application.";non ;"Connaissances de base
+en programmation en Python.";"Sont prises en compte:
+- notes de Quizz, avec un coefficient très léger
+- notes de projet, avec un coefficient plus important
+- DST final";"1)	Introduction à l’Intelligence Artificielle et ses Principales Branches
+-	Présentation générale : Histoire et applications de l'IA.
+-	Exploration des deux grandes approches : IA symbolique (systèmes experts, logique, ontologies) et IA connexionniste (réseaux neuronaux, machine learning).
+-	Comparaison des approches symboliques et connexionnistes.
+-	Applications concrètes de l’IA dans les systèmes d’information (SI).
+2)	Gestion de Projets d’IA
+3)	Introduction à Prolog
+4)	Introduction au Machine Learning et son Application dans les Systèmes d’Information
+5)	Introduction au Traitement du Langage Naturel (NLP)
+6)	 Introduction à la Vision par Ordinateur
+ 7)	Introduction aux Chatbots et Agents Conversationnels
+8)	Présentation des Projets Réalisés,           
+  - Chaque séance couvre les concepts fondamentaux d'une méthode (Machine Learning, Prolog, NLP, Chatbots et Vision par Ordinateur), suivis d'une mise en œuvre pratique sur un cas réel appliqué aux systèmes d'information.";"Modéliser un raisonnement en utilisant divers types de logiques 
+(premier ordre, logique des propositions, logique des descriptions, ...) 
+Appliquer des concepts mathématiques pour paramétrer et intégrer un composant/service d’Intelligence Artificielle dans une application logicielle +";"Utiliser des méthodes combinatoires, 
+probabilistes ou concurrentielles comme support à la décision
+ ou à l’optimisation d’un processus, produit ou service";"Russell, S. J., & Norvig, P. (2016). Artificial intelligence: a modern approach. Pearson.
+-	Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. "" O'Reilly Media, Inc."", 2022.
+Bird, Steven, Ewan Klein, and Edward Loper. ""Nltk documentation."" Online: accessed April (2008).
+ Mordvintsev, Alexander, and K. Abid. ""Opencv-python tutorials documentation."" Obtenido de https://media. readthedocs. org/pdf/opencv-python-tutroals/latest/opencv-python-tutroals. pdf (2014)";Intelligence artificielle, IA symbolique, IA connexionniste, machine learning, NLP, agents conversationnels, vision par ordinateur. ;Français;
+IBI/SBI;Cours obligatoire;M1-ISI3;15;15;Rebecca, Irina;;;Modèles et outils pour les processus;This cours introduces the main concepts of Business Process Management discipline. We explore the business process lifecycle, starting from process identification and terminating with process analysis. The BPMN graphical notation is introduced for reasoning about process logic. Architecture of the process-driven information systems and business process management systems is examined during this class.;At the end of this class, the students will learn about the complete process lifecycle and how each stage of this lifecycle is implemented in a company. In particular, the students will be able to draw BPMN diagrams to represent collaborating business processes. The students will be able to reason about the integrating role of a business process in the enterprise and about the architecture of its supporting information systems. ;oui;basic knowledge in OOP and UML is a plus.;Evaluation continue intégrale  (ECI)  ;;"5.2 Analyser le fonctionnement d’une organisation en utilisant des outils spécialisés (mathématiques, informatiques et de gestion)
+5.3 Auditer et cartographier les processus d’une organisation
+8.1 Modéliser de manière fonctionnelle une application d’entreprise avec des méthodes et outils standards : exigences, processus métier et recette applicative.";"5.2 Analyser le fonctionnement d’une organisation en utilisant des outils spécialisés (mathématiques, informatiques et de gestion)
+5.3 Auditer et cartographier les processus d’une organisation
+8.1 Modéliser de manière fonctionnelle une application d’entreprise avec des méthodes et outils standards : exigences, processus métier et recette applicative.";;Processus, Modélisation;Français;
+SBI;Cours obligatoire;M1-ISI3;15;15;Rebecca, Irina;;integrer responsable (sensibiliser, mesurer);Modèles et outils pour les processus;This cours introduces the main concepts of Business Process Management discipline. We explore the business process lifecycle, starting from process identification and terminating with process analysis. The BPMN graphical notation is introduced for reasoning about process logic. Architecture of the process-driven information systems and business process management systems is examined during this class. Additionally, the course emphasizes the importance of sustainability in business processes. Students are sensitized to ecological, social, and economic challenges as part of process analysis and optimization. Tools and methodologies for assessing the environmental and societal impact of processes are also introduced.;At the end of this class, the students will learn about the complete process lifecycle and how each stage of this lifecycle is implemented in a company. In particular, the students will be able to draw BPMN diagrams to represent collaborating business processes. The students will be able to reason about the integrating role of a business process in the enterprise, about the architecture of its supporting information systems and about its sustainability. ;oui;basic knowledge in OOP and UML is a plus.;Evaluation continue intégrale  (ECI)  ;;"5.2 Analyser le fonctionnement d’une organisation en utilisant des outils spécialisés (mathématiques, informatiques et de gestion)
+5.3 Auditer et cartographier les processus d’une organisation
+8.1 Modéliser de manière fonctionnelle une application d’entreprise avec des méthodes et outils standards : exigences, processus métier et recette applicative.";"5.2 Analyser le fonctionnement d’une organisation en utilisant des outils spécialisés (mathématiques, informatiques et de gestion)
+5.3 Auditer et cartographier les processus d’une organisation
+8.1 Modéliser de manière fonctionnelle une application d’entreprise avec des méthodes et outils standards : exigences, processus métier et recette applicative.";;Processus, Modélisation;Français;
+IBI/SBI;Cours obligatoire;M1-ISI4;15;15;Rebecca, Carine, irina;;Ethique, Green IT, Explicabilité;Ethique et Développement durable;"Ce module a pour objectif de sensibiliser les étudiants aux enjeux éthiques et environnementaux liés aux technologies numériques, en les préparant à intégrer des pratiques responsables dans la conception et la gestion de systèmes d'information.
+Les étudiants seront introduits aux bases de l'éthique appliquée aux technologies de l'information et au concept de Green IT, tout en développant un esprit critique face aux impacts sociétaux et environnementaux des systèmes numériques.";"Comprendre les enjeux éthiques et environnementaux du numérique
+Identifier les impacts sociétaux, environnementaux et éthiques des systèmes d'information.
+Reconnaître les dilemmes éthiques courants dans les projets numériques.
+Sensibiliser aux principes de ""Ethics by Design"".
+Sensibiliser à l’importance de l’éco-conception.
+Analyser les pratiques numériques pour différencier les initiatives responsables des stratégies de greenwashing.
+Identifier des gestes responsables dans l’utilisation quotidienne des outils numériques, au niveau individuel et professionnel.";;module de L3 sur le développement durable;Evaluation continue intégrale  (ECI)  ;"1) Ethique et responsabilité dans le numérique: introduction aux fondements de l’éthique appliquée aux technologies, exploration des dilemmes éthiques dans les projets numériques (biais algorithmiques, transparence, explicabilité, et inclusion), sensibilisation aux principes de ""Ethics by Design""? (intégrer les valeurs éthiques dès la conception d’un projet IT).
+2) Green IT et consommation énergétique: comprendre les impacts écologiques du numérique (consommation énergétique des data centers, empreinte carbone des technologies, gestion des déchets électroniques), étude des bonnes pratiques d’éco-conception des services numériques et des outils permettant de réduire ces impacts)
+3) Responsabilité sociétale des systèmes d’information: identifier les pratiques responsables au sein des entreprises? (politiques de RSE appliquées au numérique, exemples concrets d’initiatives Green IT), développer un esprit critique face au greenwashing dans les discours et les pratiques technologiques.
+4) Pratiques responsables dans l’usage quotidien: conseils pour un usage numérique personnel et professionnel plus durable?(gestion des ressources, réduction des déchets numériques, optimisation énergétique), réflexion sur les choix individuels et leur impact global.";"4.5 Respecter les principes d’éthique, de déontologie et de responsabilité sociétale et environnementale
+5.1 Analyser l’environnement (économique, juridique et sociétal), le fonctionnement et la structure d’une organisation";"4.5 Respecter les principes d’éthique, de déontologie et de responsabilité sociétale et environnementale
+";;"Développement Durble
+Ethique
+Green IT";Français;
+SBI;Cours obligatoire;M1-ISI5;15;15;Nicolas, Rebecca, Carine;;;Modélisation événementielle et ses implémentations;"Les systèmes sont de plus en plus réactifs et adaptatifs. Pour aider les étudiants à appréhender le développement de ce type de systèmes, il faut comprendre et maitriser :
+(a) la vision systémique;
+(b)  la modélisation événementielle et ses bonnes pratiques pour être en mesure de développer des systèmes réactifs et adaptatifs robustes.";"Comprendre le concept d'évènement et de modélisation évènementielle.
+Savoir modéliser un système avec un modèle évènementiel.
+Savoir implémenter un système évènementiel.";;Modélisatione et Programmation Orientée Objet;Evaluation continue intégrale  (ECI)  ;"Introduction à la modélisation événementielle à l'aide du modèle O*.
+Application sur plusieurs cas d'étude.
+Passage à l'implémentation avec plusieurs TP à difficulté croissante.";"5.2 Analyser le fonctionnement d’une organisation en utilisant des outils spécialisés (mathématiques, informatiques et de gestion)
+6.3 Concevoir et déployer des architectures logicielles distribuées sur des plateformes supports (Cloud, Machines virtuelles, Conteneurs, Middleware…)
+8.1 Modéliser de manière fonctionnelle une application d’entreprise avec des méthodes et outils standards : exigences, processus métier et recette applicative.	
+8.2 Modéliser de manière technique une application d’entreprise en utilisant des méthodes et outils standards : architecture, interface personne système, systèmes de gestion de données, composants";"""5.2 Analyser le fonctionnement d’une organisation en utilisant des outils spécialisés (mathématiques, informatiques et de gestion)
+8.1 Modéliser de manière fonctionnelle une application d’entreprise avec des méthodes et outils standards : exigences, processus métier et recette applicative.	";;;Français;
+IBI/SBI;Cours obligatoire;M1-MM3;15;15;Daniel, Lukas Lapidus (doctorant d'Arianna Novaro);;;Techniques mathématiques pour l'aide à la décision;;;;Aucun;Evaluation continue intégrale  (ECI)  ;;;;;;Français;
+IBI;Cours obligatoire;M1-GO3;9;9;Carine;Hela ?;(inscrit dans un parcours IA);Marketing digital;Ce cours de marketing digital explore les principes et stratégies du marketing en ligne, en abordant la conception d’expériences numériques, l’optimisation des médias digitaux (SEO, publicité en ligne, partenariats), l’analyse des performances via le web analytics et l’impact des réseaux sociaux, de la géolocalisation et du mobile. Il permet aux étudiants de comprendre et d’exploiter les leviers numériques pour une communication et une stratégie marketing efficaces.;"- Comprendre les fondamentaux du marketing digital : Acquérir les concepts clés et les tendances du marketing en ligne, ainsi que les différences avec le marketing traditionnel.
+- Concevoir une expérience utilisateur efficace : Apprendre à structurer et optimiser un site web en fonction des besoins des consommateurs et des bonnes pratiques du digital.
+- Maîtriser les leviers du marketing digital : Savoir utiliser les outils et techniques de communication numérique, notamment le référencement (SEO/SEA), l’e-mailing, l’affiliation et la publicité en ligne.
+- Analyser et mesurer la performance des actions digitales : Utiliser le web analytics pour évaluer l’efficacité des campagnes et ajuster les stratégies en conséquence.
+- L14Exploiter le potentiel du social, du local et du mobile : Comprendre l’impact des réseaux sociaux, de la géolocalisation et du marketing mobile pour une stratégie omnicanale performante.
+
+
+
+
+
+
+
+
+";;Aucun;Evaluation continue intégrale  (ECI)  ;"Chapitre 1 Introduction au marketing digital
+Chapitre 2 : Penser en terme de plateforme vers un Mix du marketing digital
+Chapitre 3: Concevoir l’expérience en ligne : recommandations pour la conception d’un site
+Chapitre 4: Planification et utilisation des médias digitaux en communication : leviers du marketing
+digital : (référencement liens sponsorisés, affiliation et partenariat, e-mailing)
+Chapitre 5 : Web Analytics
+Chapitre 6 : Social (comprendre les communautés, les réseaux et les tribus), local (géolocaliser un
+internaute), mobile (opportunités du mobile)";"4.1 Gérer des contextes professionnels ou d’études complexes, imprévisibles et qui nécessitent des approches stratégiques nouvelles
+5.2 Analyser le fonctionnement d’une organisation en utilisant des outils spécialisés (mathématiques, informatiques et de gestion)
+5.6 Organiser et développer le système décisionnel de l’organisation";4.1 Gérer des contextes professionnels ou d’études complexes, imprévisibles et qui nécessitent des approches stratégiques nouvelles;;Marketing, stratégie digitale, web analytics;Français;
+SBI;Cours obligatoire;M1-GO3;9;9;Carine;;(orienté gestion de projet);Contrôle de gestion;"This course presents the technics and tools of computing the differents costs, how to compute the prédicted costs and Benefits , elaborate a Dashboard and analyse the variances
+of a company .";"The student should be able :
+-to compute the cost of goods produced and sold
+- to assess the profitabilty of a company,the break-even point, ....
+-To elaborate the budgets (predicted cots and predicted benefits) and Dashboard.
+-to calculate and explain the different variances .";;Aucun;Evaluation continue intégrale  (ECI)  ;;"4.1 Gérer des contextes professionnels ou d’études complexes, imprévisibles et qui nécessitent des approches stratégiques nouvelles
+5.2 Analyser le fonctionnement d’une organisation en utilisant des outils spécialisés (mathématiques, informatiques et de gestion)";"""4.1 Gérer des contextes professionnels ou d’études complexes, imprévisibles et qui nécessitent des approches stratégiques nouvelles
+5.2 Analyser le fonctionnement d’une organisation en utilisant des outils spécialisés (mathématiques, informatiques et de gestion)""";;Cost accounting, Budget, variances, profitability, Dashboard;Français;
+IBI/SBI;Cours obligatoire;M1-TC2;0;15;Carine;Brigitte;(+MBTI);Communiquer en mode projet;"•	Différencier projet et problèmes
+•	Vocabulaire du mode projet
+•	Définir une problématique
+•	Management et leadership : deux notions distinctes et liées
+•	Analyser les motivations des contributeurs au projet
+•	Renforcer son impact et son influence
+•	Identifier son type MBTI® et mieux comprendre différences et complémentarités";"Faire découvrir à de futurs professionnels de l'informatique appliquée en entreprise l'impact pour soi et pour les autres des principaux constituants de la communication interpersonnelle, en s'appuyant : 
+- sur les pères fondateurs de la discipline (Watzlawick, Rodgers, Porter, Salter et Wolpe, Bateson...)
+- et sur un mode pédagogique visant à opérationnaliser les comportements efficaces en communication : 
+o   par le jeu : exercices pratiques,
+o   et par l'enjeu : restitution écrite et soutenance orale d'un projet de communication, conduit en groupe et évalué en mode « jury ».";https://www.metispresses.ch/fr/signup;Il est souhaitable d'avoir acquis préalablement les bases de la communication interpersonnelle (cf Communication interpersonnelle - L3TC);Evaluation continue intégrale  (ECI)  ;"S'adressant à de futurs praticiens, l'animation des différents séquences s'appuie essentiellement sur la pratique : les apports théoriques, indispensables, sont brefs et complétés par des recherches personnelles. 
+Une série d'ateliers vient solliciter les étudiants, pour les amener à mobiliser leurs aptitudes, s'entraîner à les transformer en capacités, pour viser le renforcement de leurs compétences en communication.
+L’outil M.B.T.I® (Myers-Briggs Type Indicator), sous sa forme numérique (M.B.T.I Complete®) est utilisé pour mieux se connaître et se situer dans un cadre qui décrit les différences de personnalité d'une manière positive et constructive, et pour appréhender les différences qui peuvent exister entre les personnes et comprendre comment les différents types peuvent être complémentaires.
+Un projet de communication est conduit en équipe-projet constituée par l'intervenant ; sa problématique, de nature obligatoirement professionnelle, lui est soumise pour approbation ; une double restitution, écrite et orale, est présentée par l'équipe et fait l'objet d'une évaluation.";"Expliquer les ingrédients de la cohésion et de la motivation d'un groupe
+Identifier les différents facteurs de motivation au travail
+Identifier les styles de leadership au sein d'une équipe et les comportements pertinents en mode conduite de projet
+Reconnaître les signes selon lesquels une équipe peut dysfonctionner
+Connaître son mode préférentiel de relations interpersonnelles et son style de communication
+Décrire au sein d'une équipe les types de personnalité et les traduire en mode d'action préférentiel
+Synthétiser un ensemble de documents ou d'informations avec une démarche scientifique
+Concevoir un support d'exposé pertinent au regard d'une problématique professionnelle
+Utiliser efficacement un support d'exposé lors d'une présentation orale à finalité professionnelle
+Réaliser une présentation orale et écrite dans une situation professionnelle";" - Identifier, sélectionner et analyser avec esprit critique diverses ressources spécialisées pour documenter un sujet et synthétiser ces données en vue de leur exploitation
+- Communiquer à des fins de formation ou de transfert de connaissances, par oral et par écrit, en français et dans au moins une langue étrangère";"•	Kotter, J. (2001) “What Leaders Really Do”, Harvard Business Review
+•	Goleman, D. (2000) “Leadership That Gets Results”, Harvard Business Review
+•	Herzberg, F. (2003) , ""Comparison Of Satisfiers and Dissatisfiers : How Do You Motivate Employee"", Harvard Business School Publishing Corporation";;Français;
+IBI/SBI;Cours obligatoire;M1-INF7;0;18;Nicolas;Nicolas Cordier/Lebacq;integrer Responsable (sensibiliser, mesurer);"Atelier ""Veille technologique""";This 3-day workshop equips students with the skills and methodologies required for effective technology monitoring and analysis. Participants will learn how to identify emerging trends, evaluate technological innovations, and assess their relevance to business or research domains. The workshop emphasizes practical exercises, collaborative research, and presentation skills.;"Understand the importance and methodologies of technology watch.
+Identify and analyze emerging trends in technology.
+Develop critical thinking to evaluate the impact of technological advancements.
+Synthesize findings and effectively communicate insights.";non ;"Basic knowledge of the IT field and its main domains (e.g., software development, data systems).
+Ability to perform independent research using digital tools.
+Familiarity with academic or professional databases and sources.";Final project in groups;"Day 1: Introduction to Technology Watch
+
+    Definition and objectives of technology watch
+    Tools and resources for technology monitoring (e.g., Google Alerts, RSS feeds, academic databases)
+    Workshop: Creating a personal technology monitoring setup
+
+Day 2: Research and Analysis
+
+    Techniques for identifying relevant sources and filtering noise
+    Analyzing emerging trends and their impact on specific domains
+    Group activity: Research on an assigned technological trend
+
+Day 3: Presentation and Critical Discussion
+
+    Structuring findings into a compelling narrative
+    Presenting insights to a target audience (peers, stakeholders)
+    Group presentations with Q&A sessions and peer feedback
+
+Methods:
+
+    Hands-on exercises using technology monitoring tools.
+    Collaborative group work and discussions.
+    Practical workshops with immediate application of concepts.";"1.1 Identify the uses of digital tools and their impacts on relevant domains.
+3.1 Identify, select, and critically analyze specialized resources to document a subject and synthesize data for use.
+3.2 Communicate findings effectively, both orally and in writing, in French and at least one foreign language.
+10.1 Conduct a technology or competitive watch project.
+1.2 Autonomously use advanced digital tools for professional or research purposes.
+10.3 Use creativity tools to design new concepts, ideas, products, or services.";"1.2 Autonomously use advanced digital tools for professional or research purposes.
+3.1 Identify and analyze specialized resources for effective documentation and synthesis.
+10.3 Use creativity tools to design new concepts, ideas, products, or services.";;"Technology watch, trend analysis, competitive intelligence
+Research methodologies, innovation assessment
+Digital tools for monitoring, data synthesis
+Emerging technologies, critical thinking, collaborative research";Français;
+IBI;Cours obligatoire;M1-INF9;0;15;Nourhène, Camille, Daniel;;(robotique, NLP...);Atelier IA (webscraping, robotique, NLP...);"Cet atelier propose une approche approfondie de l'extraction de données web en Python, 
+en mettant l'accent sur les techniques de web scraping et d'extraction de données 
+structurées et non structurées. Il s'agit d'une introduction complète 
+aux outils et méthodes permettant de récupérer des informations depuis des sources web, qu'elles soient sous forme de données structurées (comme celles d'APIs) ou non structurées (comme les pages HTML).";"À l’issue de cet atelier, les étudiants seront capables de :
+•	Utiliser les techniques de web scraping pour extraire efficacement des données de pages web statiques et dynamiques.
+•	Travailler avec des APIs pour récupérer des données structurées.
+•	Nettoyer et organiser les données extraites pour les rendre prêtes à l’analyse.
+•	Appliquer les bonnes pratiques en matière de sécurité et d’éthique pour garantir des pratiques responsables et conformes.";non ;"""- Connaissances de base en programmation en Python
+""- Notions de base sur HTML et le web.";"Le contrôle de connaissance
+ se fait à travers la réalisation
+ d'un projet de web scraping (réalisation pratique + un rapport)";"1) Introduction au web scaping et présentation des principales  bibliothèques pour le scraping (par exemple Requests, BeautifulSoup, lxml, Selenium).
+2) Récupération de données via APIs : authentification, gestion des quotas.
+3) Nettoyage et organisation des données 
+4)Analyse éthique et sécurité dans le web scraping.";"6.3 Déployer des architectures logicielles distribuées sur des plateformes supports (Cloud, Machines virtuelles, Conteneurs, Middleware…)
+9.1 Utiliser des méthodes combinatoires, probabilistes ou concurrentielles comme support à la décision ou à l’optimisation d’un processus, produit ou service
+9.3 Appliquer des concepts mathématiques pour paramétrer et intégrer un composant/service d’Intelligence Artificielle dans une application logicielle	
+9.4 Modéliser un raisonnement en utilisant divers types de logiques (premier ordre, logique des propositions, logique des descriptions, ...)";"9.3 Appliquer des concepts mathématiques pour paramétrer et intégrer un composant/service d’Intelligence Artificielle dans une application logicielle	
+9.4 Modéliser un raisonnement en utilisant divers types de logiques (premier ordre, logique des propositions, logique des descriptions, ...)";"Mitchell, Ryan. Web Scraping with Python. "" O'Reilly Media, Inc."", 2024.
+Richards, Tyler. Getting Started with Streamlit for Data Science: Create and deploy Streamlit web applications from scratch in Python. Packt Publishing Ltd, 2021.";web scraping, API, HTML, éthique, sécurité ;Français ;
+IBI;Cours obligatoire;M1-PRO1;0;9;Nicolas, Nourhène, Camille, Daniel;;;Projet tuteuré IA;Les projets tutorés permettent aux étudiants de renforcer leur engagement dans la gestion de projet et d’assumer des responsabilités, notamment en matière de leadership technique, de gestion des ressources humaines et de garantie de la qualité des livrables. Dans ce cadre, les étudiants doivent, de manière autonome, identifier une entreprise sponsor prête à collaborer avec eux pour la réalisation d’un projet d'intelligence artificielle. Encadrés par le responsable des projets communs, les étudiants devront définir leur méthode de travail en s’appuyant sur les enseignements en gestion de projet déjà acquis au cours de leur formation. Ils devront  constituer une équipe de 5 à 8 membres, chacun apportant une expertise spécialisée dans les domaines couverts par le projet. Enfin, les étudiants mèneront des audits croisés des autres projets afin de favoriser une démarche d’amélioration continue. Les projets doivent avoir une composante majeur portant autour de la spécialité du master.;"* Appliquer les concepts d'IA dans un projet réel 
+*  être autome sur la gestion d'un projet réel en lien avec un sponsor
+* se répartir le travail en fonction des spécialisations et attentes de chacun
+* tenir des comptes rendu de réunion 
+* remonter les alertes
+* veiller à la qualité des livrables";non ;"- bases théoriques de la gestion de projet
+- qualité rédactionnelle
+- conduite de réunion";Soutenance finale;"Phase de recherche de sponsors.
+
+ les étudiants cherchent les entreprises sponsor. Ceux-ci doivent compléter la fiche d’intérêt et la retourner à l’adresse indiquée avant la date donnée en cours
+
+Phase d’écriture du cadrage du projet
+
+Les étudiants organisent un appel visio entre l’enseignant référant, le chef de projet et le sponsor afin pour pouvoir dégrossir le périmètre du du projet.
+
+Une fois le périmètre validé par l’enseignant référant, les étudiants ont jusqu’a mi janvier , pour rédiger la note de cadrage et l’ensemble des livrables amonts qui vont servir de guide tout au long du projet tuteuré.
+
+Phase d’exécution du projet
+
+La phase opérationnelle du projet commence le mi-janvier janvier  jusqu’à début  juin. Pendant cette période, des meetings fréquents sont organisés entre le Chef de projet et le sponsor afin de faire un point sur l’avancement, gérer les alertes et les points de blocage. L’enseignant référent est invité à ces points, et pourra être amené à participer en cas de besoin.
+
+Soutenance du projet
+
+7 jours avant la soutenance, chacun des groupes envoi le lien d’un drive avec l’ensenble des livrables projets (amon, aval) et également la fiche bilan du projet, qui doit être envoyée par le sponsor à l’adresse indiquée.
+
+Les soutenances sont prévues fin  juin  le sponsor peut demander une présoutenance au groupe d’étudiant avec cette date. Il peut également assister à la soutenance à l’Université.";"    1.1 Identifier les usages numériques et les impacts de leur évolution sur le ou les domaines concernés par la mention.
+    4.3 Conduire un projet (conception, pilotage, coordination d’équipe, mise en œuvre et gestion, évaluation, diffusion) pouvant mobiliser des compétences pluridisciplinaires dans un cadre collaboratif.
+    4.2 Prendre des responsabilités pour contribuer aux savoirs et aux pratiques professionnelles et/ou pour réviser la performance stratégique d'une équipe.
+    4.4 Analyser ses actions en situation professionnelle, s’autoévaluer pour améliorer sa pratique dans le cadre d'une démarche qualité.
+    7.1 Définir, adapter et mettre en œuvre une méthode de gestion de projet.
+    7.2 Définir les ressources d’un projet (humaines, financières et techniques) et gérer leur affectation.
+    7.7 Adapter en continu le pilotage du projet en fonction des changements rencontrés (fonctionnalités, ressources, infrastructure…).
+    10.1 Mener un projet de veille (concurrentielle ou technologique).";"    4.3 Conduire un projet (conception, pilotage, coordination d’équipe, mise en œuvre et gestion, évaluation, diffusion) pouvant mobiliser des compétences pluridisciplinaires dans un cadre collaboratif.
+    4.2 Prendre des responsabilités pour contribuer aux savoirs et aux pratiques professionnelles et/ou pour réviser la performance stratégique d'une équipe.
+    4.4 Analyser ses actions en situation professionnelle, s’autoévaluer pour améliorer sa pratique dans le cadre d'une démarche qualité.
+    7.7 Adapter en continu le pilotage du projet en fonction des changements rencontrés (fonctionnalités, ressources, infrastructure…).
+";;"gestion de projet; agilité";Français;
+SBI;Cours obligatoire;M1-PRO1;0;9;Nicolas, Irina, Carine, Daniel;;integrer Responsable (agir);Projet tuteuré ISI;"Les projets tutorés permettent aux étudiants de renforcer leur engagement dans la gestion de projet et d’assumer des responsabilités, notamment en matière de leadership technique, de gestion des ressources humaines et de garantie de la qualité des livrables. 
+Dans ce cadre, les étudiants doivent, de manière autonome, identifier une entreprise sponsor prête à collaborer avec eux pour la réalisation d’un projet lié à la filière MIAGE (gestion ou informatique). 
+Encadrés par le responsable des projets communs, les étudiants devront définir leur méthode de travail en s’appuyant sur les enseignements en gestion de projet déjà acquis au cours de leur formation. 
+Ils devront  constituer une équipe de 5 à 8 membres, chacun apportant une expertise spécialisée dans les domaines couverts par le projet.
+ Enfin, les étudiants mèneront des audits croisés des autres projets afin de favoriser une démarche d’amélioration continue. Les projets doivent avoir une composante majeur portant autour de la spécialité du master";"* être autome sur la gestion d'un projet réel en lien avec un sponsor
+* se répartir le travail en fonction des spécialisations et attentes de chacun
+* tenir des comptes rendu de réunion 
+* remonter les alertes
+* veiller à la qualité des livrables";non ;"- bases théoriques de la gestion de projet
+- qualité rédactionnelle
+- conduite de réunion";Soutenance finale;"Phase de recherche de sponsors.
+
+ les étudiants cherchent les entreprises sponsor. Ceux-ci doivent compléter la fiche d’intérêt et la retourner à l’adresse indiquée avant la date donnée en cours
+
+Phase d’écriture du cadrage du projet
+
+Les étudiants organisent un appel visio entre l’enseignant référant, le chef de projet et le sponsor afin pour pouvoir dégrossir le périmètre du du projet.
+
+Une fois le périmètre validé par l’enseignant référant, les étudiants ont jusqu’a mi janvier , pour rédiger la note de cadrage et l’ensemble des livrables amonts qui vont servir de guide tout au long du projet tuteuré.
+
+Phase d’exécution du projet
+
+La phase opérationnelle du projet commence le mi-janvier janvier  jusqu’à début  juin. Pendant cette période, des meetings fréquents sont organisés entre le Chef de projet et le sponsor afin de faire un point sur l’avancement, gérer les alertes et les points de blocage. L’enseignant référent est invité à ces points, et pourra être amené à participer en cas de besoin.
+
+Soutenance du projet
+
+7 jours avant la soutenance, chacun des groupes envoi le lien d’un drive avec l’ensenble des livrables projets (amon, aval) et également la fiche bilan du projet, qui doit être envoyée par le sponsor à l’adresse indiquée.
+
+Les soutenances sont prévues fin  juin  le sponsor peut demander une présoutenance au groupe d’étudiant avec cette date. Il peut également assister à la soutenance à l’Université.";"    1.1 Identifier les usages numériques et les impacts de leur évolution sur le ou les domaines concernés par la mention.
+    4.3 Conduire un projet (conception, pilotage, coordination d’équipe, mise en œuvre et gestion, évaluation, diffusion) pouvant mobiliser des compétences pluridisciplinaires dans un cadre collaboratif.
+    4.2 Prendre des responsabilités pour contribuer aux savoirs et aux pratiques professionnelles et/ou pour réviser la performance stratégique d'une équipe.
+    4.4 Analyser ses actions en situation professionnelle, s’autoévaluer pour améliorer sa pratique dans le cadre d'une démarche qualité.
+    7.1 Définir, adapter et mettre en œuvre une méthode de gestion de projet.
+    7.2 Définir les ressources d’un projet (humaines, financières et techniques) et gérer leur affectation.
+    7.7 Adapter en continu le pilotage du projet en fonction des changements rencontrés (fonctionnalités, ressources, infrastructure…).
+    10.1 Mener un projet de veille (concurrentielle ou technologique).";"    4.3 Conduire un projet (conception, pilotage, coordination d’équipe, mise en œuvre et gestion, évaluation, diffusion) pouvant mobiliser des compétences pluridisciplinaires dans un cadre collaboratif.
+    4.2 Prendre des responsabilités pour contribuer aux savoirs et aux pratiques professionnelles et/ou pour réviser la performance stratégique d'une équipe.
+    4.4 Analyser ses actions en situation professionnelle, s’autoévaluer pour améliorer sa pratique dans le cadre d'une démarche qualité.
+    7.7 Adapter en continu le pilotage du projet en fonction des changements rencontrés (fonctionnalités, ressources, infrastructure…).
+";;"gestion de projet; agilité";Français;
+IBI/SBI;Cours obligatoire;M1-PRO2;0;0;Rébecca + les autres;;;"Mémoire ""Etat de l'art"" couplé à une mission en entreprise de 2 mois minimum";"Ce module est validé par deux éléments:
+- la bonne tenue du stage ou de l'apprentissage 
+- l'écriture et la présentation d'un travail de recherche de type ""état de l'art""";"Apprendre à développer et à démontrer les compétences interpersonnelles et comportementales nécessaires pour évoluer efficacement en entreprise.
+Mettre en pratique ses connaissances théoriques et ses compétences techniques dans un environnement professionnel.
+Être en mesure de définir clairement une problématique de recherche pertinente et adaptée au contexte.
+Savoir identifier et accéder à des sources scientifiques fiables et pertinentes pour soutenir une étude ou une analyse.
+Être capable de réaliser une analyse critique des informations, en évaluant leur validité, leur pertinence et leur impact.";;Aucun;Evaluation continue intégrale  (ECI)  ;;"2.1 Mobiliser des savoirs hautement spécialisés, dont certains sont à l’avant-garde du savoir dans un domaine de travail ou d’études, comme base d’une pensée originale	
+2.2 Développer une conscience critique des savoirs dans un domaine et/ou à l’interface de plusieurs domaines
+4.3 Conduire un projet (conception, pilotage, coordination d’équipe, mise en œuvre et gestion, évaluation, diffusion) pouvant mobiliser des compétences pluridisciplinaires dans un cadre collaboratif
+4.5 Respecter les principes d’éthique, de déontologie et de responsabilité sociétale et environnementale
+10.1 Mener un projet de veille (concurrentielle ou technologique)";"2.2 Développer une conscience critique des savoirs dans un domaine et/ou à l’interface de plusieurs domaines
+4.3 Conduire un projet (conception, pilotage, coordination d’équipe, mise en œuvre et gestion, évaluation, diffusion) pouvant mobiliser des compétences pluridisciplinaires dans un cadre collaboratif
+4.5 Respecter les principes d’éthique, de déontologie et de responsabilité sociétale et environnementale
+10.1 Mener un projet de veille (concurrentielle ou technologique)";;;Français;
+;;;;;;;;;;;;;;;;;;;;

@@ -1,0 +1,102 @@
+promo;;Code;Cours;TD;;;;Libellé;Description;Objectifs;Ouvert aux étudiants en échange;Pré-requis obligatoires;Contrôle des connaissances;Syllabus / Méthodes Pédagogiques;Compétences Visées;Compétences Requises;Bibliographie;mots clés;Langues d'enseignement;;;;;;;;;
+IBI;Cours obligatoire;M2-INF: AI Project;30;0;"Nicolas, Camille,
+ Nourhene";;;;;;;;;;;;;;;;;;;;;;;
+IBI;Cours obligatoire;M2-INF;30;0;Nourhène;;;Machine Learning : Advanced;"This course provides students with a deep understanding of advanced Machine Learning techniques , focusing on Deep Learning, Generative AI (particularly GANs), and Explainable AI. 
+Students will learn to apply these concepts in real-world projects, focusing on practical applications in businesses, and evaluate the performance of deployed models.";"1) Learn how to train and evaluate Deep Learning models.
+2) Master using generative models such as GANs to create new data from existing examples.
+3) Apply Explainable AI (XAI) techniques to make models more transparent and understandable.";yes;Python programming, data analysis, and ML fundamentals;;;"
+The course syllabus covers the following topics:
+1.	Introduction to Deep Learning and Deep Neural Networks
+o	Overview and characteristics of neural networks (pipeline, theoretical foundations, architectures (MLP, CNN, and RNN))
+o	RNNs and time series: financial forecasting
+2.	Generative Models - GANs (Generative Adversarial Networks)
+o	Introduction to GANs: Fundamental concepts
+o	Applications of GANs: Generating new data
+3.	Explainable AI (XAI) 
+o	Introduction to Explainable AI (XAI)
+o	Overview of some XAI methods (LIME, SHAP, permutation feature importance, etc.)
+o	Comparison of these methods";"Apply mathematical concepts to configure and integrate an Artificial Intelligence component/service into a software application.
+Model reasoning using various types of logic (first-order logic, propositional logic, description logic, ...)";;"Gianfagna, Leonida, and Di Cecco, Antonio. Explainable AI with Python. Allemagne, Springer International Publishing, 2021.
+Foster, David. Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play. États-Unis, O'Reilly Media, 2019.";"Deep learning, Generative adversarial network
+, and Explainable AI.";english;;;;;;;;
+SBI;Cours obligatoire;M2-INF: ISE Project;30;0;Nicolas;;;;;;;;;;;;;;;english;;;;;;;;
+IBI;Cours obligatoire;M2-ISI;30;0;"Nourhene,
+ Camille";;"scrapping,
+ entrepot de données
+, datalake, XML";Big data ;"This course explores the key concepts of Big Data, focusing on the use of distributed file systems and large-scale data processing.  It also covers integration with NoSQL databases, with 
+an emphasis on applying these technologies to solve problems related to managing and analyzing large volumes of data.";"•	Understand the basic concepts of Big Data and its ecosystem.
+•	Understand and use distributed file systems like HDFS to store large amounts of data.
+•	Manipulate and process massive data with Apache Spark, including real-time processing with Spark Streaming.
+•	Use NoSQL databases as a prerequisite for managing unstructured and semi-structured data.";yes;NoSQL Databases +Relational Databases;;;"""-	Introduction to the key concepts of Big Data, the 3 V’s (Volume, Velocity, Variety), and associated challenges.
+-	Exploration of the Big Data ecosystem, including main tools such as Hadoop, Spark, HDFS, and NoSQL.
+-	Using HDFS for storing and managing large-scale data in a Big Data environment.
+-	Data processing with Apache Spark, including its architecture, use for handling large datasets, and the application of Spark Streaming for real-time processing.
+-	Real-world use case: for example data analysis at Deezer for real-time music recommendation ";;"
+Apply statistical techniques and data mining in a software component";"White, Tom. Hadoop: The definitive guide. "" O'Reilly Media, Inc."", 2012.
+Chambers, Bill, and Matei Zaharia. Spark: The definitive guide: Big data processing made simple. "" O'Reilly Media, Inc."", 2018.";;english;;;;;;;;
+SBI;Cours obligatoire;M2-ISI;30;0;Rebecca, Carine, Irina;;;Responsible and Sustainable Information Systems: Techniques and Methods;;"Understand best practices for eco-design and environmental impact assessment, considering the product and service life cycle.
+Apply an eco-design method to business processes and their associated information systems.
+Assess the environmental impact of a business solution and an IT solution.";;M2-GO: Responsible and Sustainable Information Systems: Fundamentals;;;"This class focuses on embedding DDRS principles into traditional IS design methodologies:
+- Impact of DDRS on Enterprise IS Domains: Business, data, application, and infrastructure.
+- DDRS Methods and Practices: Implementation across these domains.
+- Impact of DDRS in IS Lifecycle Management: Ensure compliance with DDRS principles in every domain and at all stages of IS lifecycle management.
+- Understand How to Reorganize Business Processes and Provide Corresponding Solutions: Co-Design with Business Stakeholders.
+- Monitoring and Evaluating Sustainable IT Practices.
+- Define and Apply a DDRS-Compliant IS Design Methodology:
+This could involve a workshop or a mini project.";"Adhere to the principles of ethics, professional conduct, and social and environmental responsibility.
+Consider disability and accessibility issues in all professional actions.
+Analyze the company’s DDRS strategy to ensure alignment with the information system and its governance.
+Define, adapt, and implement responsible engineering practices.
+Eco-design business and digital solutions.
+Apply the principles of sustainable programming.
+Implement tools and methods for measuring responsible digital practices.";"Adhere to the principles of ethics, professional conduct, and social and environmental responsibility.
+Define, adapt, and implement responsible engineering practices.";;Eco-design, Best Practices, Environmental Impacts, Business Solution, IT Solution;english;;;;;;;;
+SBI;Cours obligatoire;M2-GO;30;0;Irina, Camille;;;Enterprise Architecture;;"Understand the motivation behind the EA discipline;
+Define the EA-driven approach for IS development and its main characteristics, advantages and limitations;
+Define the main levels of enterprise architecture (Business, Data, Application, Infrastructure) ;
+Understand  the main EA methods and frameworks";;;;;"In this class, the students willlearn about EA-driven approach toenterprise  IS design and development. Compared to traditional (or project-centered) design, EA approach requires centralised view on the organisational assets. The main topics will include: 
+- Enterprise Architecture as a responce to Organisational complexity: Technical debt, lack of strategic alignment
+- EA -driven IS development 
+- EA domains and  principles
+- EA frameworks and tools";;;;;english;;;;;;;;
+IBI/SBI;Cours obligatoire;M2-PRO;0;0;Rebecca;;;Social cohesion and implications;This module aims to validate students' involvement in social and community life, emphasizing active participation in initiatives that promote social cohesion and contribute to the university's educational environment. Students will engage in activities such as participating in the student committee (BDE), tutoring bachelor or master students, representing the program in high schools or universities to recruit new students, and attending forums dedicated to further studies. These activities foster the development of leadership, social responsibility, and interpersonal skills, while reinforcing the university's role within the broader academic and social context.;"To promote students' active engagement in the university community.
+To develop leadership and interpersonal skills through social and educational activities.
+To encourage students to take part in initiatives that contribute to social cohesion and enhance their sense of responsibility.
+To strengthen connections between the university and potential future students through outreach activities.
+To foster a culture of collaboration, mutual aid, and collective growth within the university.";;No specific academic prerequisites are required for this module, as it focuses on the student's involvement in extra-curricular activities and social initiatives. However, students must be willing to engage with peers and future students.;;VAL;"The student will be required to actively participate in one or more social or educational activities throughout the semester. This may include involvement in the student associaiton (BDE), tutoring, representing the program in outreach activities, or participating in events related to further studies and recruitment. At the end of the semester, the student must submit a detailed report outlining their involvement. 
+The report should include:
+- A description of the activities carried out and the roles assumed.
+- Evidence of participation (e.g., photos, event agendas, testimonials, certificates of involvement).
+- Reflection on the experience, including skills gained and the impact of the activities on personal and professional development.
+The report will be assessed based on the depth of involvement, the quality of the provided evidence, and the student's ability to reflect on their contributions to the community and social cohesion.";"Actively participate in social or educational activity in the course of the master (either in M1 or M2).
+Demonstrate ability to organize and lead initiative aimed at increasing student involvement or representing the program.";Actively participate in at least one social or educational activity in the course of the master (either in M1 or M2).;;Social implication;English;;;;;;;;
+IBI/SBI;Cours obligatoire;M2-REC;0;0;Rébecca, Irina;;;Master thesis, Entrepreneurship & Apprenticeship/Training course;"This master's module allows students to choose between two pathways:
+- A research-oriented master’s thesis, involving implementation formulation and answering an original research question via implementing a specific research methodology. This project will be terminated with a master thesis defence.
+- A group-based entrepreneurial project, focused on the early stages of starting a business (developing the business plan, prototype, and group defense). The project must incorporate innovative technology and is supported by specialized associations.";"Develop skills in managing research projects or entrepreneurship.
+Gain in-depth knowledge in a specific research area or in business creation.";;Initiation in research (M1)?  research methodology class (M2);;CC;"Master Thesis:
+- The student is supervised by a faculty member who guides him throughout the thesis process.
+- Three mandatory tutorial sessions are scheduled: One during the research methods course to discuss the research problem and methodology and two additional sessions with a committee of two members (including the supervising faculty) to discuss the progress of the work.
+- Informal tutorial sessions between the student and the supervisor are also scheduled according to their availability.
+- The student must submit a written thesis and present it during a defense at the end of the academic year.
+Entrepreneurship:
+- The student is supported by two individuals: A coach from the PIVOD association, who mentors the business plan portion and a mentor from the MIAGE-ENTREPRENEUR association, providing additional guidance and advice.
+- The student group must submit a business plan, a prototype, and participate in a group defense to conclude the project.
+";"Master thesis:
+- Master an academic research method and scientific writing.
+Entrepreneurship:
+- Understand business management and strategic planning.
+- Be able to work in groups, manage projects, and make effective presentations.
+- Construct a business plan
+10.4 Develop a research project
+10.5 Develop an entrepreneurial project
+";"Master thesis:
+- Master an academic research method and scientific writing.
+Entrepreneurship:
+- Understand business management and strategic planning.
+- Be able to work in groups, manage projects, and make effective presentations.
+- Construct a business plan
+10.4 Develop a research project
+10.5 Develop an entrepreneurial project
+";;"Academic research
+Innovative technology
+Entrepreneurship";english;;;;;;;;

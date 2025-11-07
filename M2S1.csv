@@ -1,0 +1,285 @@
+promo;;Code;Cours;TD;;;;Libellé;Description;Objectifs;Ouvert aux étudiants en échange;Pré-requis obligatoires;Contrôle des connaissances;Syllabus / Méthodes Pédagogiques;Compétences Visées;Compétences Requises;Bibliographie;mots clés;Langues d'enseignement;
+IBI;Cours obligatoire;M2-INF : Pervasive computing with AI;30;0;Carine, Irina;;;;;;yes;;CC;;;;;;english;
+SBI;Cours obligatoire;M2-INF : Pervasive computing to Pervasive IS;30;0;Carine, Irina;;;;;;yes;;CC;;;;;;english;
+SBI;Cours optionnel;M2-INF : Software Factories;30;0;Camille;;;Software factories;"This course explores the principles, methods, and technologies behind Software Product Lines (SPLs), a key paradigm for sustainable software engineering. Software factories—automated environments for producing software variants based on a shared set of assets—represent a strategic approach to industrialize software development, promote systematic reuse, and improve long-term software quality. Through SPLs, organizations can reduce redundancy, ensure consistency across products, and lower maintenance costs.
+In the context of sustainable digital systems, SPLs offer a powerful response to the challenges of scalability, adaptability, and resource optimization. Most importantly, they provide a structural foundation to limit and actively manage technical debt—by favoring modularity, standardization, and traceability in software development processes. This course combines theoretical concepts with practical application through modeling, variability management, architecture design, and automated code generation.";By the end of the course, students will understand how -owing to their specific economic model, software product lines contribute to sustainability and efficiency in information systems engineering. They will be able to identify reusable software assets, model product variability using appropriate techniques (e.g., feature modeling, decision modeling), and design modular architectures suitable for automated production environments. Students will also gain the ability to evaluate the impact of reuse strategies on software lifecycle costs, technical debt reduction, and long-term system maintainability. Emphasis will be placed on aligning SPL engineering practices with sustainable digital practices, including energy efficiency, lifecycle management, and reduction of redundant development efforts.;yes;"Advanced Software Engineering lifecycles, methodes and tools
+Conceptual Modelling
+Notions of integer linear programming or constraints programming";CC;"The lecture covers the following topics : 
+(1) Introduction to Software Product Lines (SPLs)
+(2) Principles of Variability and Commonality
+(3) Economic and Organizational Models of SPLs
+(4) Application Engineering
+(5) Domain Engineering
+(6) Tools and Platforms for Software Factories
+(7) Technical Debt and Sustainable Software Development
+Practical application will be explored thourgh case studies,  industry-like exercices, tool manipulations, and a capstone project.";;"Solve problems to develop new knowledge and procedures and integrate knowledge from different domains
+Manage a project involving multidisciplinary skills in a collaborative environment
+Technically model an enterprise application using standard methods and tools: architecture, human-system interface, data management systems, components";"Pohl, K., Böckle, G., & van der Linden, F. (2005). Software Product Line Engineering: Foundations, Principles and Techniques. Springer.
+Clements, P., & Northrop, L. (2001). Software Product Lines: Practices and Patterns. Addison-Wesley.
+Gomaa, H. (2004). Designing Software Product Lines with UML: From Use Cases to Pattern-Based Software Architectures. Addison-Wesley.";Software Engineering, Software Product Lines, Reuse, Variability, Domain Engineering, Configuration;english;
+IBI;Cours obligatoire;M2-INF;30;0;Nourhène;;;Machine Learning : Fundamentals;This course aims to provide a deep understanding of the fundamental concepts of Machine Learning, as well as the associated techniques and algorithms for analyzing large datasets. Students will learn to apply these methods to real-world projects and evaluate model performance.;"After completing the course, the student will be able to:  
+- Use Machine Learning techniques to analyze large datasets.  
+- Master the fundamental concepts, techniques, and algorithms in the field of Machine Learning.  
+- Represent datasets in a manner suitable for Machine Learning algorithms.  
+- Evaluate the performance of different Machine Learning algorithms.";yes;Python for Data analysis ;CC;"The course covers the following topics:
+1) Machine Learning pipeline and key challenges (bias, overfitting, underfitting, interpretability).
+2) Data preparation and representation:
+o	Handling missing values, normalization, and transformation of categorical variables.
+o	Data exploration.
+3) Supervised learning (classification and regression):
+o	Principles.
+o	Algorithms: Decision Trees, Linear Regression, Logistic Regression, KNN.
+o	Performance evaluation.
+4) Unsupervised learning (clustering):
+o	Principles.
+o	Algorithms: K-means, DBSCAN.
+o	Performance evaluation.
+5) Ensemble models:
+o	Principles.
+o	Bagging.
+o	Boosting.
+o	Performance evaluation.";"Apply mathematical concepts to configure and integrate an Artificial Intelligence component/service into a software application.
+Model reasoning using various types of logic (first-order logic, propositional logic, description logic, ...)";;Géron, Aurélien. Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. États-Unis, O'Reilly Media, 2019.;"Machine Learning, Algorithms, 
+Classification, Regression,
+ Clustering, Data Science,  
+Supervised Learning, 
+Unsupervised Learning, 
+Ensemble Models, Bias.";english;
+SBI;Cours obligatoire;M2-INF : Blockchain for good;30;0;Nicolas, Irina;;;;;;yes;;CC;;;;;;english;
+IBI/SBI;Cours obligatoire;M2-REC : Research Methods;30;0;Irina, Camille, Nicolas;;parler du scrapping et des données FAIR, LLM;;This class aims to provide hands-on on implementing specific research methodologies in order to address various research problems that will be formulated by the students for their end-of study M2 reesearch project. ;"After completing the class, the student will be ble to:
+- Formulate and justify the interest and originality of his/her research question
+- Justify the research strategy and select a specific research methodology to address the formulated RQ
+- Elaboprate the specific research protocol and reason about its feasibility  (time, resources)
+- Discuss the potential threats of validity and propose a validation strategy
+Considering the specific researchers' skills, the students will learn how:
+- to collect data for qualitative and quantitative studies via interviews, surveys, data scrapping or by using open research resources
+- to process qualitative data using AI or manual protocols
+- to process  quantitative data using statistical analysis, descriptive and inferential statistics, multifactorial analysis, classification techniques etc
+- to communicate the research via scientific publications";yes;;CC;;;;;;english;
+IBI/SBI;Cours obligatoire;M2-ISI : Requirements engineering;30;0;Camille, Irina;;;Requirements Engineering;"This course provides a structured and comprehensive introduction to Requirements Engineering (RE), focusing on the principles, techniques, and best practices for capturing, documenting, analyzing, validating, and managing software requirements. It emphasizes the central role of RE in ensuring the quality, alignment, and long-term sustainability of information systems.
+Building on a solid foundation of classical RE techniques—such as elicitation methods, requirements modeling, documentation standards, and change management—the course progressively expands toward advanced topics that reflect the evolving challenges of contemporary software engineering. Special attention is given to the engineering of requirements for software systems that incorporate Artificial Intelligence, where uncertainty, non-determinism, adaptivity, and explainability raise specific challenges. Students will explore how to specify quality requirements for AI components, define trustworthiness criteria, and support certification processes for intelligent and self-adaptive systems.
+The course will also explore the use of AI to support RE activities themselves, including automated requirements classification, traceability analysis, and prioritization techniques enhanced by natural language processing and machine learning tools.
+Finally, the course will integrate the perspective of sustainable software design, encouraging students to consider the environmental, ethical, and social implications of requirements decisions. They will learn to formulate requirements that support accessibility, reduce technical debt, improve maintainability, and contribute to energy-efficient, responsible digital systems.";At the end of the course, students shall be able to systematically identify, analyze, document, and manage software requirements to ensure system quality, stakeholder alignment, and long-term sustainability. They will develop the skills to address both classical and advanced challenges in Requirements Engineering, including those specific to AI-based systems and self-adaptive architectures. Students will also learn to integrate responsible and sustainable design principles into the requirements process, and to leverage AI tools to support RE activities such as elicitation, prioritization, and traceability.;yes;"Good knowledge of software development processes and system lifecycle models (e.g., waterfall, V, cycle, agile).
+Familiarity with object-oriented modeling concepts, particularly UML diagrams (use cases, class diagrams, etc.).
+General understanding of conceptual modelling (UML, SYSML), software architecture (TOGAF) and system design principles.
+Introductory knowledge of Artificial Intelligence concepts is recommended but not mandatory.";CC;"The lecture will adress the following topics :
+(1) Introduction to Requirements Engineering
+(2) Requirements Elicitation Techniques
+(3) Requirements Documentation and requirements modeling
+(4) Validation, Negotiation and Requirements Management
+(5) Requirements Engineering for AI Systems
+(6) AI-Supported Requirements Engineering
+(7) Sustainable Software Requirements
+
+The course combines theoretical lectures with active learning methods. Students engage in in-class exercises to practice elicitation and specification techniques, and work on practical case studies inspired by real-world AI and sustainable system projects. Group activities and role-playing simulations are used to train negotiation and stakeholder interaction skills. Applied research tasks and guided readings encourage students to critically explore emerging trends in requirements engineering and apply them to complex, multidisciplinary contexts.";"Ability to structure and manage the requirements engineering process across the lifecycle of a digital project, ensuring completeness, traceability, and stakeholder alignment.
+Capacity to translate business needs into formal, clear, and testable specifications, using appropriate modeling techniques and documentation standards.
+Skills to analyze complex system contexts, facilitate stakeholder communication, and propose responsible, sustainable, and value-driven design choices aligned with organizational goals.";"Mastering of software development life cycles and basic project management methods, including familiarity with traditional and agile models.
+Ability to interpret and produce standard modeling artifacts, such as E/R or UML diagrams or user stories.
+Good general knowledge of system architecture and fundamentals of software quality, including performance, reliability, and maintainability criteria.";"Pohl, K. (2010). Requirements Engineering – Fundamentals, Principles, and Techniques. Springer.
+Gupta, V., Gupta, C (2021) Research and Evidence in Software Engineering. CRC Press
+Calero, C.,  Piatini, M. (2015)  Green in software engineering. Springer";Requirements elicitation, requirements modeling, traceability, AI-based systems, sustainable software design, stakeholder analysis, requirements management.;english;
+IBI;Cours obligatoire;M2-ISI: AI-assisted Software Engineering;30;0;Camille;;;AI-assisted Software Engineering;"These objectives aim to prepare students for professional roles where AI-augmented engineering becomes a strategic component of modern software development. It fosters competencies required in roles such as software engineer, DevOps engineer, requirements analyst, and project manager in AI-intensive development environments.
+The course shall explore the integration of Artificial Intelligence into software engineering practices. It will address how AI techniques—particularly natural language processing (NLP), machine learning (ML), and large language models (LLMs)—can enhance different phases of the software development lifecycle, from requirements engineering to testing and maintenance. Students will investigate how AI tools support developers, project managers, and analysts in increasing productivity, improving software quality, and reducing repetitive tasks. The course combines theoretical foundations with hands-on experience through in-class practical case studies.";"At the end of this course, students shall be able to :
+- identify the areas of software engineering that can benefit from AI assistance and select appropriate tools and techniques.
+- critically assess the capabilities and limitations of AI-powered tools across various phases of the software development lifecycle.
+- integrate AI tools into real-world software engineering workflows, with attention to quality, traceability, and ethical concerns.
+";yes;"Basic knowledge of software engineering processes and tools (version control, testing, continuous integration).
+Familiarity with software development lifecycle models (agile, DevOps, V-model).
+Good understanding and ability to use of Artificial Intelligence concepts and techniques (supervised learning, NLP, LLMs).";CC;"(1) Introduction to AI-Assisted Software Engineering
+(2) AI in Requirements Engineering and Analysis
+(3) AI in Design, Development, and Code Generation
+(4) AI for Testing and Quality Assurance
+(5) Ethics, Limitations, and Human-AI Collaboration in SE
+The course is based on interactive, case-based learning. Each session will include practical case studies implemented in class, where students will be required to experiment with AI-powered tools (e.g., GitHub Copilot, ChatGPT, test automation assistants). Realistic scenarios will be used to simulate software engineering tasks and to reflect on tool performance, collaboration dynamics, and decision-making. Students work in pairs or small groups, fostering peer learning and critical discussion.
+";"Solve problems to develop new knowledge and procedures and integrate knowledge from different domains.
+Identify, use, and evaluate software management tools (performance analysis, testing, CI/CD pipelines, etc.).
+Manage a project involving multidisciplinary skills in a collaborative environment.";"Software development lifecycle knowledge and practical experience with standard engineering workflows.
+Understanding of software quality attributes and software project planning.
+Basic programming skills and familiarity with software development environments.
+";;AI-assisted development, code generation, requirements analysis, software testing, human-AI collaboration;english;
+IBI/SBI;Cours obligatoire;M2-ISI : Knowledge Engineering and Management;30;0;Nicolas, Irina, Abdelkrim;;SECI, Ontology;;;;yes;;CC;;;;;;english;
+IBI/SBI;Cours optionnel;M2-ISI : IS Security;30;0;Carine;Fabrice ? Corinne ?;;;;;yes;;CC;;;;;;english;
+IBI/SBI;Cours optionnel;M2-ISI;30;0;Nicolas, Rebecca;;Cours en deux parties;Meta-modeling and Domain Driven Design;"This course is divided in two parts.
+
+Metamodeling part: This course provides an in-depth introduction to metamodeling, a key approach for analyzing and structuring information systems models. Students will learn to abstract models into metamodels using appropriate modeling notations. They will apply their knowledge through multiple exercises, thereby enhancing their understanding of metamodeling.
+
+DDD: This practical course provides you with a set of core patterns, principles and practice for analyzing business domains, understanding business strategy and most importantly aligning software design with its business needs.";"Metamodeling part:
+- Understand the concept of metamodeling and its role in structuring models.
+- Learn to abstract a model into a metamodel using appropriate notations.
+- Practice metamodeling through exercises.
+- Develop a critical and analytical approach to models to identify abstract structures.
+
+DDD:
+Alanyse a company business domain to learn how the system your're building gits its competitive strategy
+Use DDD strategic and tactical modelization tools to architect effective software solutions that addresses business needs
+build a share model of the business domains you encounter
+Decompose a system into bounded contexts";yes;"Students are expected to have prior knowledge of modeling techniques for information systems. They should be proficient in using either relational notations (e.g., Entity-Relationship diagrams) or object-oriented notations (e.g., Unified Modeling Language, UML).
+They also should master a programming language and have previous experience in analyzing enterprise business ";CC;"Metamodelling part:
+Introduction to Metamodeling
+- Definition and fundamental concepts
+- Differences between models and metamodels
+- Concrete examples and interactive discussions
+- Guided exercise: Abstracting a simple model into a metamodel
+Advanced Practice
+- Metamodeling of known or unknown models
+
+DDD:
+Strategic design
+Tactical design
+DDD: application in practice";"Metamodeling part: 
+- Explain the fundamental concepts of metamodeling and its importance in structuring models.
+- Abstract a model into a metamodel using appropriate modeling notations.
+- Apply metamodeling techniques to various models, both known and unknown.
+- Analyze and structure models to extract metamodels while developing a critical and analytical approach.
+7.5 Select and implement security and quality tools (standards, methods, and technologies) that meet the project's requirements.
+8.1 Functionally model an enterprise application using standard methods and tools: requirements, business processes, and application testing.
+
+DDD:  
+4.1 Manage professional or academic contexts with new strategic approaches  
+5.4 Analyze an organization’s strategy and its IT strategy to ensure alignment with the information system and its governance  
+8.1 Functionally model an enterprise application using standard methods and tools: requirements, business processes, and application testing  
+8.2 Technically model an enterprise application using standard methods and tools: architecture, human-system interfaces, data management systems, components  ";"Metamodeling part: 
+- Explain the fundamental concepts of metamodeling and its importance in structuring models.
+- Abstract a simple model into a metamodel using appropriate modeling notations.
+7.5 Select and implement security and quality tools (standards, methods, and technologies) that meet the project's requirements.
+8.1 Functionally model an enterprise application using standard methods and tools: requirements, business processes, and application testing.
+
+DDD:  
+5.4 Analyze an organization’s strategy and its IT strategy to ensure alignment with the information system and its governance  
+8.2 Technically model an enterprise application using standard methods and tools: architecture, human-system interfaces, data management systems, components  
+";"Metamodeling part:
+Gonzalez-Perez Cesar, Henderson-Sellers Brian. Metamodelling for Software Engineering. Wiley, 2008.
+
+DDD: 
+Evans, Eric. Domain-driven design: tackling complexity in the heart of software. Addison-Wesley Professional, 2004.
+Khononov, V. (2021). Learning Domain-Driven Design. "" O'Reilly Media, Inc."".";"metamodelling
+modelling
+model
+information system
+Domain Driven Design";english;
+IBI/SBI;Cours optionnel;M2-ISI;30;0;Nourhene ;Bijaoui ;Changer le nom avec BI ?;Business Intelligence;"This course enables students to acquire the skills needed to design 
+an end-to-end BI architecture, model a data warehouse, 
+configure ETL (Extract, Transform, and Load) pipelines for data integration and transformation,
+ and explore and visualize data using tools such as Power BI.
+By the end of the course, students will be able to explain the role of each system component, describe design options when setting up a solution architecture, and implement the core elements of a BI environment.";"a) Understand the architecture and key concepts of Business Intelligence.
+b) Design and implement a data warehouse tailored to analytical needs.
+c) Build and optimize ETL pipelines to transform and load data.
+d) Master OLAP databases for multidimensional analyses.
+e) Create visualizations and interactive dashboards to support strategic decision-making.";yes;"Students must know about relational database systems 
+and  SQL language.";CC;"(a) Introduction to BI and Environment Setup
+(b) Data Warehouse Modeling and Design
+ (c) ETL Pipelines and Data Transformation
+(d) Multidimensional Analysis with OLAP
+(e) Data Visualization and Decision Making.
+Students will gain hands-on experience by building key components of a BI environment, such as databases, ETLs, cubes, and reports. ";"Organize and develop the organization's decision-making system.
+Design an end-to-end BI architecture and integrate key components.
+Model a data warehouse that supports analytical needs.
+Configure ETL pipelines for data integration and transformation.
+Explore and visualize data using Power BI.
+Describe and choose appropriate design options for BI solutions.
+Implement the core elements of a BI environment";"Knowledge of relational database systems
+ and SQL language.";"Olszak, Celina. Business Intelligence and Big Data: 
+Drivers of Organizational Success. États-Unis: CRC Press, 2020.";"Business Intelligence, Datawarehouse, ETL, OLAP, Reports, Dashboards
+";english;
+SBI;Cours optionnel;M2-ISI;30;0;Rebecca, Irina;;Cours en deux parties;Advanced process engineering and process modelling;"This course explores process modeling through different paradigms. 
+- The first part focuses on the intention-oriented paradigm using the MAP meta-model, applied to various case studies. 
+- The second part covers activity-oriented and state-oriented paradigms, with an emphasis on state machines and statecharts for system specification. The course discusses the limitations of Business Process Management (BPM) and explores how the state-oriented paradigm can address these limitations. The CREATE statecharts tool is introduced for modeling and simulating processes.";"To develop the ability to construct processes in an intentional way.
+To gain an understanding of various paradigms of process modeling and their applications.
+To master the statechart modeling notation and tools for process specification and simulation.";yes;;CC;"Part 1: Intention-Oriented Paradigm
+- Introduction to the MAP meta-model for intentional process modeling.
+- Case study applications of the intention-oriented approach.
+Part 2: Activity-Oriented and State-Oriented Paradigms
+- Introduction to state machines and statecharts for process specification.
+- Analysis of BPM limitations and how state-oriented paradigms can address them.
+- Practical application using the CREATE statecharts tool for process modeling and simulation.";"Understand the intention-oriented process modeling paradigm.
+Understand the state-oriented process modeling paradigm.
+Construct process models using the intention-oriented paradigm.
+Construct process models using the state-oriented paradigm.
+Apply various paradigms of process modeling, understanding their strengths and weaknesses.
+";;;;english;
+IBI;Cours obligatoire;M2-GO: AI law, AI Ethics;30;0;Camille;;;AI law and ethics;This course explores the legal and ethical frameworks surrounding the development, deployment, and use of Artificial Intelligence systems. Building on the legal foundations acquired in M1, it focuses on the specific challenges raised by AI technologies in terms of accountability, transparency, data protection, discrimination risks, and human rights. Students will examine emerging legal instruments—such as the European Union AI Act—as well as ethical guidelines and governance models developed by international bodies. The course emphasizes critical reflection, regulatory compliance, and the ability to design AI systems aligned with legal obligations and ethical values.;"At the end of this course, students shall be able to identify and analyze the legal frameworks applicable to AI systems, including sector-specific regulations and the AI Act.
+At the end of this course, students shall be able to assess the ethical risks associated with the development and use of AI technologies and apply key principles such as fairness, accountability, transparency, and explainability.
+At the end of this course, students shall be able to integrate legal and ethical considerations into the design, deployment, and governance of AI systems.";yes;"General knowledge of legal concepts and regulations, as acquired in the M1 Law course.
+Familiarity with the structure and lifecycle of digital and software systems.
+Basic understanding of how AI systems work and the nature of algorithmic decision-making.
+";CC;"(1) Introduction to AI Law and Governance Frameworks
+Overview of legal principles, regulatory trends, soft law instruments, and the role of international institutions.
+(2) The European AI Act and Other Regulatory Approaches
+Risk-based classification of AI systems, obligations by risk level, conformity assessments, enforcement mechanisms.
+(3) AI Ethics: Core Principles and Dilemmas
+Fairness, transparency, explainability, autonomy, human oversight, and dignity in AI systems.
+(4) Accountability and Responsibility in AI Systems
+Legal responsibility, liability regimes, algorithmic harm, and emerging models of accountability.
+(5) Embedding Legal and Ethical Principles into AI System Design
+Translating normative frameworks into engineering requirements, documentation, audits, and impact assessments.
+The course is based on interactive lectures combined with real-world case studies. Students shall analyze concrete examples of AI system failures or ethical controversies and evaluate them using legal and ethical frameworks. Practical exercises include drafting AI impact assessments, identifying regulatory obligations for given use cases, and designing ethical-by-design strategies. Group discussions and role-playing simulations will encourage students to adopt multiple stakeholder perspectives and argue trade-offs between innovation and compliance.";"2.5 – Conduct reflexive and critical analysis to address complex problems while considering regulatory evolution.
+4.5 – Respect ethical, deontological, and social responsibility principles in professional practice.
+5.1ter – Analyze and ensure the compliance of AI use with the legal and societal environment of the organization.";"Legal reasoning and basic understanding of digital law and contractual frameworks.
+Ability to analyze a software system in terms of structure, architecture, and functionalities.
+Awareness of ethical and societal challenges of digital technologies.";;AI regulation, AI ethics, accountability, transparency, human oversight;english;
+SBI;Cours obligatoire;M2-GO Responsible and Sustainable Information Systems: Fundamentals;30;0;Rebecca, Carine, Irina;;;Responsible and Sustainable Information Systems: Fundamentals;;"Understand the key measurement indicators related to Sustainable Development and Social Responsibility (DDRS) objectives.
+Assess the environmental impact of a product, service, information system, or organization.
+Be familiar with best practices for gathering relevant data from outside the information system.
+Understand the methods for designing and developing traditional decision support information systems.
+Design and develop a decision support information system aligned with DDRS objectives.";Yes;L3 atelier DDRS;CC;"This class provides foundational knowledge of DDRS principles, environmental impact assessment, and sustainable practices in IS. It will consist of lectures and practical exercises.
+- Overview of DDRS objectives (including sustainability, ethics and accessibility) and key sustainable development indicators.
+- Introduction to measurement techniques for assessing sustainability and environmental impact of enterprise IS.
+- Best practices, methods and tools for sourcing and integrating external data relevant to DDRS.
+- Define, analyse and follow a DDRS strategy for the company, focusing on IS design and development ";"Organize and develop an organization's Decision Support Information System for Sustainable Development in a responsible manner.
+";Organize and develop an organization's Decision Support Information System for Sustainable Development in a responsible manner.;;;English;
+SBI;Cours optionnel;M2-GO : IS Strategic Alignment;30;0;Irina, Camille;;;Strategic alignment;This course introduces the concept of strategic alignment and its critical role in aligning an organization’s IT with its business objectives. Students will explore the interplay between a company’s operating model and its IT strategy, leveraging enterprise architecture as a tool to bridge the two. ;"Understand the fundamental characteristics of a company that define its operating model.
+Analyze how operating models shape long-term IT strategies to support organizational goals.
+Analyse enterprise architecture maturity.
+Discuss governance practices to ensure alignment with business strategy.
+Apply analytical skills to identify IT-related risks and opportunities in specific organizational contexts.  Evaluer l'impact environnemental";Yes;;CC;"Definition of strategic alignment and its role in IS  design and development
+Operating model of a company and its role in defining IT strategy;
+Enterprise architecture as a mean to implement the IT strategy;
+EA maturity and organisational learning;
+IT engagement model and IT Governance;
+During the exercises, the students wil work on simple case studies, learning to identify the operating models of organisations. As a personal assignment, the students will be asked to analyse one organisation of their choice, defining its operating model and identifying the opportunities and risks for the IT strategy related to this model. The results will be presented and discussed in class.";;;Ross, Jeanne W., Peter Weill, and David Robertson. Enterprise architecture as strategy: Creating a foundation for business execution. Harvard business press, 2006.;Reports, Dashboards;EN;
+;;;;;;;;;;;;;CC;;;;;;;
+IBI;Cours obligatoire;M2-MM;30;0;Rebecca;;;Process Mining;This module covers the techniques and algorithms used to analyze, improve, and optimize processes based on their execution traces. Students will learn to discover, verify, and analyze process models using modern process mining tools using user activity logs. This module combines theory and practice to ensure a comprehensive understanding of the concepts and tools in process mining.;"Understand the different types of process mining and their associated objectives (modeling, verification, deviation analysis, conformity).
+Gain proficiency in using various process mining algorithms such as the Alpha algorithm, Heuristic Miner, and Conformity Checking.
+Be able to handle different process mining software and utilizing them to analyze real data.
+Be able to select the right algorithm for a given situation, based on available data and analysis goals.
+Understand the importance of process modeling skills to use process mining techniques.
+";yes;Process modeling (the ability to understand and represent processes in the form of diagrams or models).;CC;"The course begins with an introduction and explanation of process mining, followed by practical exercises for each part of the course. 
+- Introduction to Process Mining (Definitions and objectives, Overview of Process Mining Tools)
+- Techniques and Models Used in Process Mining (Petri Nets Modeling, Dependency Graphs, Causal Nets, Transition Systems)
+- Process Mining Algorithms (Alpha Algorithm, Heuristic Miner, Conformity Check)
+Each section is complemented by practical exercises where students can apply the concepts learned logs data. 
+The course culminates in a final practical exercise in which students will infer process models from given data.";"Choose the most appropriate process mining algorithm based on objectives and available data.
+Analyze process data using specialized tools.
+Apply process mining software to discover and analyze a process model.
+Understand process deviation and conformity checking concepts.
+Propose improvements to optimize processes based on process mining results.
+Analyse the results of several process mining algorithm to choose the best model.
+4.1 Manage professional or academic contexts that are complex, unpredictable, and require new strategic approaches.
+5.7 Develop and manage the system for creating and disseminating information and knowledge.
+9.3 Apply mathematical concepts to configure and integrate an Artificial Intelligence component/service into a software application.
+9.4 Model reasoning using various types of logic (first-order logic, propositional logic, description logic, etc.).""";"Apply process mining software to discover and analyze a process model.
+Understand process deviation and conformity checking concepts.
+9.3 Apply mathematical concepts to configure and integrate an Artificial Intelligence component/service into a software application.
+9.4 Model reasoning using various types of logic (first-order logic, propositional logic, description logic, etc.).""";Van Der Aalst, Wil, and Wil van der Aalst. Data science in action. Springer Berlin Heidelberg, 2016.;"Process Mining
+Conformity Check
+Process Deviation
+Process Model
+Mining Algorithms
+Process Analysis";english;
+IBI;Cours optionnel;M2-MM: Contraint reasoning and its applications;30;0;Daniel;;;Contraint reasoning and its applications;This course introduces the students to the Constraint Programming methodologies, which are put in context and for which several approaches are discussed;"Following this course, the students will be able to :
+-	recognize problems which are better expressed in terms of constraints
+-	model them declaratively
+-	select an appropriate tool to solve them
+-	improve the modeling to solve them efficiently
+";;Java and Python programming;;"The contents are:
+
+-	introduction
+-	Essential notions (CSP, Combinatorial Optimization Problems, hardness, examples)
+-	Exact methods : Constraint Programming, Integer Programming, Dynamic Programming, Branch & Bound, SAT.
+-	Practical examples using Constraint Programming over Finite Domains (in Java)
+-	Approximation methods : metaheuristics, relaxation techniques, approximation algorithms.
+-	Practical examples using metaheuristics : Local Search, Tabu Search, Extremal Optimization (in Java)
+";;;"Handbook of Constraint Programming, Francesca Rossi, Peter van Beek, Toby Walsh (Eds), Elsevier Science Inc. New York, NY, USA 2006.
+Handbook of Metaheuristics. Fred W. Glover, Gary A. Kochenberger (Eds), Springer Science & Business Media, 2003.
+Handbook of Metaheuristics.Michel Gendreau, Jean-Yves Potvin (Eds), Springer Science & Business Media, 2010.
+";Intractable Problems, Constraint Satisfaction Problem, Combinatorial Optimization, Constraint Programming, Metaheuristics;French;
