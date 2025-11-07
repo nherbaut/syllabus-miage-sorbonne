@@ -1,0 +1,96 @@
+﻿;Code;Cours ;TD;;;;Libellé;;Description;Objectifs;Ouvert aux étudiants en échange;Pré-requis obligatoires;Contrôle des connaissances;Syllabus / Méthodes Pédagogiques;Compétences Visées;Compétences Requises;Bibliographie;mots clés;Langues d'enseignement
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-INF6 : Structures de données;15;15;Daniel, Nicolas, Carine;;(java) - (ancien algo avancé) /  Responsable: (sensibiliser et mesurer) mesurer le cout d'un algo en terme de ressources (énergie mémoire CPU);Structures de données;;Etude de la récursivité et des structures de données principales en informatique. Mise en oeuvre en POO;"•	Maîtriser la récursivité
+•	Connaître les structures de données classiques (fonctionnalités et implémentations)
+•	Choisir les structures de données adaptées à la résolution d’un problème
+•	Comprendre un algorithme centré sur l’usage de structures de données
+•	Construire un algorithme à partir d’une spécification nécessitant l’exploitation d’une structure de données
+";;"Algorithmique de base
+Concepts de base de la POO";;"Récursivité
+Pile
+File
+Dictionnaires, arbres, tables de hachage";;"Algorithmique de base
+Bases de la POO";"- Goodrich, M. T., Tamassia, R., & Goldwasser, M. H. Data Structures and Algorithms in Java (6th ed.). Wiley. 2014
+- Sedgewick, Robert. Algorithmes en Java: concepts fondamentaux, structures de données, tri et recherche. Royaume-Uni: Pearson Education, 2004.";structure de données, récursivité, pile, file, arbre, table de hachage, dictionnaire, récursivité;Français
+Cours obligatoire;L3-INF7 : Technologie du Web : Niveau avancé;15;15;Nicolas, Daniel, Carine;;(E/R, PHP MySQL);;;;;;;;;;;;;
+Cours obligatoire;L3-INF8 : BD relationnelles avancées;15;15;Nicolas, Daniel, Carine;;(Administration et optimisation SQL) / Responsable: (sensibiliser, mesurer, agir) calculer le cout d'une requete;BD relationnelles avancées;;Le cours présente aux étudiants les principales actions de manipulation d'une base de données (create schema, insert, update, delete, select), les techniques d'optimisations de requêtes et les différentes actions à réaliser pour assurer l'intégrité de la base de données.;Manipuler une base de données relationnelles, Maitriser l'intégrité d'une base de données et Optimiser des requêtes bases de données.;;Connaitre les concepts du modèle relationnel, maitriser la définition d'un schéma de données relationnel à partir d'un enoncé des besoins et garantir la qualité d'un schéma relationnel par l'application du processus de normalisation.;CC+Partiel (50%-50%);;Manipuler une base de données relationnelles, Maitriser l'intégrité d'une base de données et Optimiser des requêtes bases de données.;Connaitre les concepts du modèle relationnel, maitriser la définition d'un schéma de données relationnel à partir d'un enoncé des besoins et garantir la qualité d'un schéma relationnel par l'application du processus de normalisation.;;;français
+;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-ISI4 : Gestion de projets : Fondamentaux;15;15;Camille;Karin ?;;;;;;;;;;;;;;
+Cours obligatoire;L3-ISI5 : Génie logiciel Orienté Objet;15;15;Nicolas, Carine, Daniel;;(UML, java) cours d'UML et passage au code (attention de ne pas repeter INF2, mise en oeuvre de ce qui a été vu dans les autres modules) / Responsable: (Sensibiliser et Agir) regarder les patterns de numérique responsable;Génie logiciel orienté objet;;"Le cours présente aux étudiants les principes, les bonnes pratiques et quelques ""design patterns"" applicables pour concevoir l'architecture orientée objet d'une application en UML et son développement en JAVA. L'accent sera mis sur l'application d'une démarche systématique afin d'identifier une architecture objet à un problème donné et la mise en place d'un processus de type ROUND-TRIP pour sa mise en oeuvre. ";"• Maitriser la conception orientée objet en UML (diagramme de classe et diagrammes de séquence) d’une application et son développement en JAVA.
+• Connaitre les critères de qualité d’une architecture objet et auditer la qualité
+d’une architecture orientée objet (évaluation et justification)
+• Appliquer les bonnes pratiques liées à la conception d’application orientée
+objet (principes et « design patterns »)
+• Appliquer le processus « Round-trip » et intégrer les outils de conception et
+développement.";;"•	Algorithmique de base
+•	Savoir utiliser les concepts de base de l'orientation objet pour la modélisation en UML et la programmation en Java
+•	Connaitre les librairies Java sur les collections et les flux d’entrée/sortie
+•	Savoir développer une application IHM avec l’architecture MVC et JavaFX
+•	Connaitre les bases des systèmes ( processus et threads) et les bases du réseau (socket, protocole).
+";CC+Partiel (50%-50%);• Présentation des principes, bonnes pratiques et patterns liés à la modularité, la gestion de la complexité et les points de variations d'une architecture orientée objet. Eduquer les étudiants à (1) l'application systématique d'une démarche de décomposition fonctionnelle (2) à l'application du processus ROUND-TRIP permettant de synchroniser modéles et codes sources et (3) l'évaluation de la qualité d'une architecture orientée objet. La méthode pédagogique est de mettre en pratique des connaissances et compétences liées à des enseignements du semestre 5 à travers des exercices de plus en plus complexes en termes de besoins architecturaux (MVC, client/serveur ...).;"• Maitriser la conception orientée objet en UML (diagramme de classe et diagrammes de séquence) d’une application et son développement en JAVA.
+• Connaitre les critères de qualité d’une architecture objet et auditer la qualité
+d’une architecture orientée objet (évaluation et justification)
+• Appliquer les bonnes pratiques liées à la conception d’application orientée
+objet (principes et « design patterns »)
+• Appliquer le processus « Round-trip » et intégrer les outils de conception et
+développement.";"Connaitre les concepts orientés objet (L3-INF2).
+Maitriser la modélisation avec UML (diagrammes de classe, diagrammes de séquences – L3-ISI1)
+Maitriser les instructions de base du langage JAVA (L3-INF2)
+Connaitre et savoir utiliser le mécanisme d’exception (L3-INF1, L3-INF2)
+Savoir utiliser les librairies JAVA comme java.util.Collections (L3-INF2)
+Savoir utiliser un outil de développement (L3-PRO1, L3-INF1 et L3-INF2)
+Savoir écrire un algorithme à un problème simple (L3-INF1)
+Savoir définir les cas de tests d’une classe et les mettre en œuvre avec Junit (L3-ISI6)
+Savoir utiliser un framework IHM pour le développement d’une application avec un IHM graphique (JavaFX – L3-ISI2)
+Connaitre l’architecture MVC pour le développement d’une application IHM
+Connaitre la notion de système de fichiers et de processus ou de threads en système (L3-INF3)
+Connaitre les notions de base en réseau sur un ordinateur (L3-INF4).
+
+";;;Français
+;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-MM2 : Bases de la RO et de l'optimisation;15;15;Nicolas, Daniel, Arianna (Novaro) & Skoda;;;;;Le cours donne une introduction aux concepts fondamentaux de la recherche opérationnelle et de l'optimisation : introduction à la théorie des graphes, problèmes de plus court chemin, problèmes d'ordonnancement, gestion de stock, introduction aux problèmes de flot maximum et de la programmation linéaire.;"1. Obtenir des connaissances théoriques de base de la théorie des graphes.
+2. Savoir reconnaître, représenter et résoudre des problèmes de recherche opérationnelle, en utilisant les algorithmes appropriés.";;Capacité à suivre et produire des raisonnements mathématiques, connaissances de base d'algorithmique.;;"1. Bases de la théorie des graphes (algorithmes de recherche en profondeur et largeur, algorithme de Dijkstra, analyse de graphes, algorithmes de Prim et Kruskal)
+2. Problèmes d'ordonnancement (graphes potentiels-tâches, ordonnancement réalisable et optimale, diagrammes de Gantt, ressources)
+3. Problèmes de gestion de stock
+4. Problèmes de transport / flot maximum (algorithme de Ford-Fulkeron, notion de coupe)
+5. Bases de la programmation linéaire (résolution graphique, méthode du simplexe)";;;;;
+Cours obligatoire;L3-GO4 : RH & Marketing;15;15;Carine;Hela ?;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-TC2 ;0;12;Carine;Brigitte ?;;Techniques de communication;;"Les fondamentaux de la communication interpersonnelle
+•	Déperditions, interprétations, faux sens, inférences : les pièges à connaître
+•	Attitudes spontanées en communication
+•	Le non verbal : repères, perceptions, faits, sentiments, opinions
+•	L’écoute active et ses constituants : se taire, questionner, reformuler empathiquement
+•	S'exprimer face à un groupe : message, structuration du discours, mémorisation
+•	Les situations tendues et les comportements observables ; l’assertivité
+•	Communication et conduite de projet : éléments-clés d’une communication impactante, élaboration et mise en œuvre en équipe, confrontation à un public.";"Faire découvrir à de futurs professionnels de l'informatique appliquée en entreprise l'impact pour soi et pour les autres des principaux constituants de la communication interpersonnelle, en s'appuyant : 
+- sur les pères fondateurs de la discipline (Watzlawick, Rodgers, Porter, Salter et Wolpe, Bateson...)
+- et sur un mode pédagogique visant à opérationnaliser les comportements efficaces en communication : 
+o   par le jeu : exercices pratiques,
+o   et par l'enjeu : restitution écrite et soutenance orale d'un projet de communication, conduit en groupe et évalué en mode « jury ».";Oui;Aucun;Contrôle Continu (Quiz individuel + soutenance projet com en équipe);"S'adressant à de futurs praticiens, l'animation des différents séquences s'appuie essentiellement sur la pratique : les apports théoriques, indispensables, sont brefs et complétés par des recherches personnelles. 
+
+Une série d'exercices vient solliciter les étudiants, pour les amener à mobiliser leurs aptitudes, s'entraîner à les transformer en capacités (à écouter, à reformuler, à convaincre, à laisser une impression), pour viser l'acquisition des compétences interpersonnelles indispensables à l’activité professionnelle (cf référentiel de compétences Miage).";"Idem TC1 Semestre 5 +
+Rechercher des ressources documentaires en lien avec un sujet donné
+Retenir les éléments pertinents avec le sujet traité 
+Vérifier la qualité des méthodes utilisées pour produire une donnée chiffrée
+Discerner les sources documentaires de qualité (revues scientifiques, ouvrages de référence...) des sources quelconques Formuler des hypothèses à vérifier ultérieurement à l'aide d'une démarche adaptée 
+Concevoir un support d'exposé pertinent au regard d'un objectif de communication
+Utiliser efficacement un support d'exposé lors d'une présentation orale
+Identifier diverses ressources pour documenter un sujet
+Identifier la date de mise à jour/d'actualisation de ressources documentaires
+Identifier la date de rédaction de ressources documentaires
+Identifier la méthodologie de collecte de données chiffrées (recensement, sondage, test, échantillonage...)
+Identifier la provenance de ressources documentaires
+Identifier la source de données chiffrées
+Réaliser une présentation orale";Pas de compétences requises (module déployé sur tous milieux socio-culturels, du chauffeur-livreur au dirigeant);"•	Claude E. Shannon, A Mathematical Theory of Communication, Bell System Technical Journal, vol. 27, p. 379-423 and 623-656, July and October, 1948 (ISBN 0252725484)
+•	Paul Watzlawick, Avec Janet H. Beavin et Donald D. Jackson, Une logique de la communication, 1967, Norton, trad. Seuil, 1972 (ISBN 978-2020052207), et toute son œuvre, ainsi que ses conférences (YouTube)
+•	Jean-Claude Abric, Méthode d’étude des représentations sociales (2005), ERES, ISBN : 9782749201238
+•	Elias Porter, Relationship Awareness Theory, Manual of Administration and Interpretation, 9 th Edition. Carlsbad, CA: Personal Strengths Publishing, Inc. 
+•	Luft J and Ingham H. (1955). The Johari Window: a graphic model for interpersonal relations, University of California Western Training Lab.
+•	Andrew Salter, Conditioned Reflex Therapy (1949) et Joseph Wolpe, The Practice of Behavior Therapy, Pergamon Press, 1969
+
+•	Steve Jobs : http://evene.lefigaro.fr/celebre/actualite/discours-steve-jobs-stanford-2005-672682.php#0";;Français
+Cours obligatoire;L3-AN2 : Anglais;0;30;Carine;Emmanuelle ?;;;;;;;;;;;;;;
+Cours obligatoire;L3-PRO1 : Projet commun ou concours;0;9;Nicolas, Daniel, Carine, Nourhene, Camille;regis ?;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
