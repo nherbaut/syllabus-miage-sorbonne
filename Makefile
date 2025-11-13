@@ -42,7 +42,7 @@ all: precheck md pdf
 # Convert Windows-1252 CSV to UTF-8
 %-UTF8.csv: %.csv
 	$(call log,iconv $< -> $@ (WINDOWS-1252 to UTF-8))
-	$(ICONV) -f WINDOWS-1252 -t UTF-8 $< -o $@
+	$(ICONV) -f WINDOWS-1252 -t UTF-8 $< >$@
 
 # Generate markdown files (any .md depends on CSVs and script)
 $(MD): $(UTF8_CSV) L3S1.csv L3S2.csv csvToMD.py
