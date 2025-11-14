@@ -2,7 +2,7 @@
 Cours obligatoire;L3-INF1;15;15;Daniel, Nicolas, Carine;;Java niveau 1 / Responsable: (sensibiliser et mesurer) mesurer le cout d'un algo en terme de ressources (énergie mémoire CPU);Fondements de l'algorithmique;;Ce cours présente le fondements de l'algorithmique. Ce sont des bases primordiales pour tous les autres cours de développement informatique dispensés en L3 comme en Master.;"Apporter les connaissances nécessaires pour :
 1.	Analyser un problème (formulation, modélisation).
 2.	Lui trouver une solution algorithmique (en se limitant aux approches itératives)
-3.	En dériver un programme dans un langage concret (ex : Java). 
+3.	En dériver un programme dans un langage concret (par exemple en Java). 
 4.	Analyser cette solution (correction, lisibilité, fiabilité, efficacité). ";oui;Une première expérience de la programmation est souhaitable (ex avec Java).;CC+Partiel (50%-50%);"Notion de problème, de solution informatique, d’algorithme et de programme. 
 Données, variables, expressions, affectation. 
 Tests et structures conditionnelles. 
