@@ -1,10 +1,9 @@
-﻿;Code;Cours ;TD;;;;Libellé;;Description;Objectifs;Ouvert aux étudiants en échange;Pré-requis obligatoires;Contrôle des connaissances;Syllabus / Méthodes Pédagogiques;Compétences Visées;Compétences Requises;Bibliographie;mots clés;Langues d'enseignement
-;;;;;;;;;;;;;;;;;;;
-Cours obligatoire;L3-INF1 : Fondements de l'algorithmique;15;15;Daniel, Nicolas, Carine;;Java niveau 1 / Responsable: (sensibiliser et mesurer) mesurer le cout d'un algo en terme de ressources (énergie mémoire CPU);Fondements de l'algorithmique;;Ce cours présente le fondements de l'algorithmique. Ce sont des bases primordiales pour tous les autres cours de développement informatique dispensés en L3 comme en Master.;"Apporter les connaissances nécessaires pour :
+﻿;Code;Cours ;TD;;;;Libellé;;Description;Objectifs;Ouvert aux étudiants en échange;Pré-requis obligatoires;Contrôle des connaissances;Syllabus / Méthodes Pédagogiques;Compétences Visées;Compétences Requises;Bibliographie;mots clés;Langues d'enseignement;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-INF1;15;15;Daniel, Nicolas, Carine;;Java niveau 1 / Responsable: (sensibiliser et mesurer) mesurer le cout d'un algo en terme de ressources (énergie mémoire CPU);Fondements de l'algorithmique;;Ce cours présente le fondements de l'algorithmique. Ce sont des bases primordiales pour tous les autres cours de développement informatique dispensés en L3 comme en Master.;"Apporter les connaissances nécessaires pour :
 1.	Analyser un problème (formulation, modélisation).
 2.	Lui trouver une solution algorithmique (en se limitant aux approches itératives)
 3.	En dériver un programme dans un langage concret (ex : Java). 
-4.	Analyser cette solution (correction, lisibilité, fiabilité, efficacité). ";;Une première expérience de la programmation est souhaitable (ex avec Java).;CC+Partiel (50%-50%);"Notion de problème, de solution informatique, d’algorithme et de programme. 
+4.	Analyser cette solution (correction, lisibilité, fiabilité, efficacité). ";oui;Une première expérience de la programmation est souhaitable (ex avec Java).;CC+Partiel (50%-50%);"Notion de problème, de solution informatique, d’algorithme et de programme. 
 Données, variables, expressions, affectation. 
 Tests et structures conditionnelles. 
 Structures répétitives et raisonnement itératif. 
@@ -12,23 +11,47 @@ Tableaux à une et deux dimensions.
 Décomposition fonctionnelle d’un problème. 
 Introduction à la complexité des algorithmes.
 Tris de tableaux par méthodes classiques. 
-Mise en œuvre dans un langage de programmation (ex Java).";cf Objectifs;;"Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein. Introduction à l'Algorithmique, Dunod
-
-Vincent Granet. Algorithmique et programmation en Java. Dunod.
-
-Hervé Boisgontier. Algorithmique - Des bases à la programmation orientée objet en Java (avec exercices et corrigés) (2e édition), Ed. ENI
-
-Benjamin Wack, Sylvain Conchon, Judicaël Courant, Marc de Falco, Gilles Dowek, Jean-Christophe Filliâtre, Stéphane Gonnord. Informatique pour tous en classes préparatoires aux grandes écoles. Eyrolles (plus difficile).";Algorithmique, raisonnement iteratif, complexité, tris de tableaux;FR
+Mise en œuvre dans un langage de programmation (ex Java).";Ecrire une solution algorithmique adéquate à un problème et l'implémenter dans un langage de programmation (impératif, oo);Ecrire une solution algorithmique adéquate à un problème et l'implémenter dans un langage de programmation (impératif, oo);"* Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein. Introduction à l'Algorithmique, Dunod
+* Vincent Granet. Algorithmique et programmation en Java. Dunod.
+* Hervé Boisgontier. Algorithmique - Des bases à la programmation orientée objet en Java (avec exercices et corrigés) (2e édition), Ed. ENI
+* Benjamin Wack, Sylvain Conchon, Judicaël Courant, Marc de Falco, Gilles Dowek, Jean-Christophe Filliâtre, Stéphane Gonnord. Informatique pour tous en classes préparatoires aux grandes écoles. Eyrolles (plus difficile).";Algorithmique, raisonnement iteratif, complexité, tris de tableaux;Français;;;;;;;;;;;;;;;;;;;;
 Cours obligatoire;L3-INF2 ;15;15;Nicolas, Daniel, Carine;;java / Responsable: (sensibiliser et mesurer) parler des mesures et impacts de la programmation de l'application développée;Programmation orientée objet (POO);;Ce cours présente les concepts fondamentaux de l'orientation objet et leur réalisation en Java.;"Comprendre et appliquer les principes de l'orientation objet : Classes, Encapsulation des données, l'héritage entre classes, objets, les classes abstraites, l'interface ainsi que la surcharge et le polymorphisme.
 Réutiliser durant la phase de conception et de développement des classes des librairies standard Java comme lles collections et les fux d'entrée/sortie.
 
-";;aucun;CC+Partiel (50%-50%);L'enseignement est centré sur la pratique des concepts de l'orientation objet en Java.;"Comprendre et appliquer les principes de l'orientation objet : Classes, Encapsulation des données, l'héritage entre classes, objets, les classes abstraites, l'interface ainsi que la surcharge et le polymorphisme.
-Réutiliser durant la phase de conception et de développement des classes des librairies standard Java comme lles collections et les fux d'entrée/sortie.
+";oui;aucun;CC+Partiel (50%-50%);L'enseignement est centré sur la pratique des concepts de l'orientation objet en Java.;"Configurer et assembler les outils nécessaires à un processus de développement d'application (en y incluant les outils d'audit logicielle et de documentation)
+Ecrire une solution algorithmique adéquate à un problème et l'implémenter dans un langage de programmation (impératif, oo)
+";Configurer et assembler les outils nécessaires à un processus de développement d'application (en y incluant les outils d'audit logicielle et de documentation);;"Programmation orientée objet
+Java
+Développement d'application";Français;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-INF3 ;15;15;Nicolas, Daniel, Carine;;(java) doit arriver apres INF1 et INF2;Architecture des systèmes informatiques et Réseaux;;Ce cours propose aux étudiants une introduction aux notions de base, à la fois fondamentales et essentielles, sur les systèmes informatique et les réseaux. ;Comprendre l’architecture des systèmes informatiques ainsi que les concepts principaux, les protocoles et les techniques liés l’interconnexion entre les systèmes informatiques: les réseaux.;oui;"INF1: Fondements de l'algorithmique
+INF2: Programmation orientée objet (POO)";"L’évaluation du cours se répartit comme suit:
+•	Un QCM sur l’architecture des systèmes informatiques au début de la 5ème séance (10%).
+•	Un QCM sur les réseaux au début de la 10ème séance (10%).
+•	Le TD sur l’adressage dans le mémoire: 15% de la note finale.
+•	Le TP sur les sockets: 15% de la note finale.
+•	L’examen partiel: 50% de la note finale.
+";"Ce cours est organisé en 10 séancess: 4 consacrées à l’architecture des systèmes informatiques et 6 aux réseaux.
+Chaque séance débute par la présentation des notions théoriques sous format de cours magistral, suivie d’exercices pratiques (TD ou TP) visant à étabilir un lien entre théorie et application. 
 
-";;;;
-Cours obligatoire;L3-INF3 ;15;15;Nicolas, Daniel, Carine;;(java) doit arriver apres INF1 et INF2;Architecture des systèmes informatiques et Réseaux;;;;;"INF1: Fondements de l'algorithmique
-INF2: Programmation orientée objet (POO)";;;;;;;
-;;;;;;;;;;;;;;;;;;;
+Architecture des Systèmes Informatiques (Cours/TD)
+-	Composants et architecture de Von Neumann / Numération (binaire, logique combinatoire et hexadécimal)
+-	Représentation des différents types de données / Codage (entiers, flottants, caractères
+-	Mémoire / Adressage
+-	CPU / Architecture d’un processeur (pile)
+
+Réseaux (Cours/TD)
+-	Introduction aux réseaux (composants, échelles, topologies, protocoles, modèle OSI, TCP/IP) / Analyse de paquets avec Wireshark
+-	Couche physique et couche liaison de données	/ Analyse du trafic de trames en
+réseau local
+-	Couche réseau (IPv4) / Exercices sur l’adresse
+-	Couche	transport (UDP/TCP/QUIC) / Programmation de sockets	en Python
+-	Couche application / Étude des protocoles HTTP et DNS
+
+";"Concevoir et superviser une architecture réseau
+Développer des scripts ou des programmes accédant aux couches basses d'un ordinateur";Développer des scripts ou des programmes accédant aux couches basses d'un ordinateur;"Le contenu du cours s’appuie principalement sur deux ouvrages de référence:
+•	Tanenbaum, Andrew S. Structured computer organization.¨ Pearson Ed-¨ ucation India.
+•	Kurose, James F., and Keith W. Ross. Computer networking: A top-¨ down approach edition.Äddision Wesley 12.";"Architecture système
+Réseau";Français;;;;;;;;;;;;;;;;;;;;
 Cours obligatoire;L3-ISI1 ;15;15;Rebecca;;E/R essentiellement, UML Diag Classes sur 1 journée pour voir le rapport avec E/R);Méthodes d'ingénierie des SI : fondamentaux;;"Il s'agit de faire comprendre la notion de système d'information (SI), sa portée organisationnelle, stratégique et économique ; de montrer l'importance du contexte organisationnel du SI dans la réussite d'un projet de SI et l'impact sur l'ingénierie des SI. Il s'agit aussi de persuader que développer un logiciel techniquement correct ne suffit pas à la réussite d'un projet de SI.
 Plus précisément, le module apporte les connaissances nécessaires à la compréhension des concepts de SI, de cycle de vie du SI, d'ingénierie des SI et de méthode d'ingénierie. Il vise à inculquer le rôle de la modélisation dans l'ingénierie du SI, de montrer la variété des modèles auxquels on peut avoir recours et leur portée, de former à la pratique de modèles conceptuels et d'apprendre à raisonner autour de ces modèles. Les étudiants pratiqueront deux modèles conceptuels: E/R et UML sur de nombreux cas d'exercices.
 ";"Comprendre la notion de système d'information et son impact organisationnel, stratégique et économique.
@@ -38,7 +61,7 @@ Concevoir, valider et documenter des modèles conceptuels en réponse à des bes
 Connaître et appliquer les principaux diagrammes UML (classes, cas d'utilisation, séquences).
 Utiliser UML dans le cadre d’un projet.
 Tracer et justifier les décisions prises lors des phases de modélisation et conception.
-Résoudre des exercices progressifs pour maîtriser les concepts.";;aucun;;"•	Le concept de système d'information et l'ingénierie des systèmes d'information
+Résoudre des exercices progressifs pour maîtriser les concepts.";oui;aucun;CC+Partiel (50%-50%);"•	Le concept de système d'information et l'ingénierie des systèmes d'information
 •	Les méthodes d'ingénierie et la modélisation conceptuelle
 •	Etude de la modélisation E/R
 •	Etude de la modélisation UML (Diagramme de Classes, Diagramme de Cas d'utilisation, Diagramme de Séquences)
@@ -78,28 +101,71 @@ Les méthodes d’analyse et de conception de SI
 •	Unified Modeling Language™ (UML®), Infrastructure and Superstructure, version 2.4.1, OMG, 2011
 •	http://www.uml.com
 •	Navathe-Elmasri 1989, ""Fundamentals of databases systems"", 1989. The Benjamin Cummings Publishing Company Inc. Series on database systems and applications.
-•	Chen 1976, ""The Entity Relationship Model - Toward a unified view of data"", TODS, march 1976.";;
+•	Chen 1976, ""The Entity Relationship Model - Toward a unified view of data"", TODS, march 1976.";"Modélisation conceptuelle
+Bases de données relationnelles / objets
+E/R
+UML";Français;;;;;;;;;;;;;;;;;;;;
 Cours obligatoire;L3-ISI2 ;15;15;Nourhène;;"(incluant ""Sensibilisation 
 aux situations de handicap"" pour environ 9h)
- / Responsable: Parler de l'accessibilité, de l'utilisabilité"; Ingénierie de développement d'IHM;;"
-Ce cours vise à fournir aux étudiants une compréhension des normes de conception des interfaces homme-machine (IHM) et de leur relation avec l'accessibilité, en particulier pour les utilisateurs en situation de handicap. En explorant les principes de l'ergonomie, les repères légaux, et les concepts fondamentaux du handicap, le cours permettra de concevoir des interfaces accessibles et responsables. Les étudiants apprendront également à utiliser des outils de développement comme JavaFX pour mettre en œuvre ces principes dans des applications réelles.";"Analyser les normes et les bonnes pratiques de conception des IHM  et comprendre l'importance de l’accessibilité dans ce processus.
+ / Responsable: Parler de l'accessibilité, de l'utilisabilité"; Ingénierie de développement d'IHM;;Ce cours vise à fournir aux étudiants une compréhension des normes de conception des interfaces homme-machine (IHM) et de leur relation avec l'accessibilité, en particulier pour les utilisateurs en situation de handicap. En explorant les principes de l'ergonomie, les repères légaux, et les concepts fondamentaux du handicap, le cours permettra de concevoir des interfaces accessibles et responsables. Les étudiants apprendront également à utiliser des outils de développement comme JavaFX pour mettre en œuvre ces principes dans des applications réelles.;"Analyser les normes et les bonnes pratiques de conception des IHM  et comprendre l'importance de l’accessibilité dans ce processus.
 Évaluer l'impact du handicap sur la conception des interfaces et maîtriser les exigences légales liées à l'accessibilité.
 Intégrer les principes d'accessibilité dans la conception d'IHM .
 Maîtriser les outils et composants JavaFX afin de créer des interfaces graphiques accessibles et adaptées aux besoins des utilisateurs.
-Gérer les événements dans une application JavaFX et appliquer le patron de conception Modèle-Vue-Contrôleur (MVC) pour structurer les applications de manière modulaire. ";;Des connaissances de base en programmation orienté objet ;devoir sur table, projet en équipe et un examen ;Introduction aux normes IHM et accessibilité, Introduction à JavaFX : conteneures et contrôleurs, Apparence graphique (Intégration du CSS, Intégration du HTML5),  Gestion des événements avec JavaFX, Patron de conception Modèle-Vue-Contrôleur (MVC).  => Lors de la première séance, les étudiants interrogeront des utilisateurs, y compris des personnes en situation de handicap, pour recueillir leurs retours sur une IHM, en mettant l'accent sur l'accessibilité. Le cours alternera entre théorie et pratique, avec des projets où les étudiants concevront des IHM réelles basées sur l'analyse des utilisateurs.;Prendre en compte la problématique du handicap et de l'accessibilité dans chacune de ses actions professionnelles ;Ecrire une solution algorithmique adéquate à un problème et l'implémenter dans un langage de programmation (impératif, oo);" Bastien, P., et D. L. Scapin. Les normes d'ergonomie pour la conception des interfaces utilisateurs. 2003.
-
-Chin, Stephen, Stephe Chin, Johan Vos, James Weaver, Gail Anderson, Paul Anderson, Bruno Borges, Anton Epple, Weiqi Gao, Jonathan Giles, et José Pereda. The Definitive Guide to Modern Java Clients with JavaFX. 2024.";;Français
-;;;;;;;;;;;;;;;;;;;
-Cours obligatoire;L3-MM1 : Mathématiques pour l'informatique;15;15;Daniel, Nicolas, Arianna Novaro ?;;;Mathématiques pour l'informatique;;Il s'agit de reprendre et asseoir les concepts mathématiques nécessaires en informatique, notamment pour ceux poursuivant en filière IA en Master.;Maîtriser les concepts mathématiques nécessaires en informatique. Savoir faire le lien avec leur utilité en informatique.;;aucun;;"Révision des concepts : arithmétique, suites, calcul ensembliste, fonctions, polynômes, logique, dénombrement et probabilités discrètes,…
-Chaque concept mathématique abordé fait l’objet d’un cours rappelant les notions et propriétés principales. Les TD sont l’occasion de s’entraîner sur des exercices pour vérifier que les concepts sont bien compris. Ces TD sont aussi l’occasion de mettre en évidence l’utilités des concepts étudiés pour l’informatique.";"• Maîtriser les concepts mathématiques abordés.
-• Savoir les reconnaître et les appliquer dans les problèmes rencontrés en informatique.
-";;"• Jacques Vélu, Geneviève Avérous . Méthodes mathématiques pour l'informatique (5e édition). Cours et exercices corrigés. Dunod.
+Gérer les événements dans une application JavaFX et appliquer le patron de conception Modèle-Vue-Contrôleur (MVC) pour structurer les applications de manière modulaire. ";oui;Des connaissances de base en programmation orienté objet ;CC (devoir sur table, projet en équipe) - Partiel (50%-50%);Introduction aux normes IHM et accessibilité, Introduction à JavaFX : conteneures et contrôleurs, Apparence graphique (Intégration du CSS, Intégration du HTML5),  Gestion des événements avec JavaFX, Patron de conception Modèle-Vue-Contrôleur (MVC).  => Lors de la première séance, les étudiants interrogeront des utilisateurs, y compris des personnes en situation de handicap, pour recueillir leurs retours sur une IHM, en mettant l'accent sur l'accessibilité. Le cours alternera entre théorie et pratique, avec des projets où les étudiants concevront des IHM réelles basées sur l'analyse des utilisateurs.;"Prendre en compte la problématique du handicap et de l'accessibilité dans chacune de ses actions professionnelles 
+Concevoir et développer des applications centrées utilsateurs";Concevoir et développer des applications centrées utilsateurs;"* Bastien, P., et D. L. Scapin. Les normes d'ergonomie pour la conception des interfaces utilisateurs. 2003.
+*Chin, Stephen, Stephe Chin, Johan Vos, James Weaver, Gail Anderson, Paul Anderson, Bruno Borges, Anton Epple, Weiqi Gao, Jonathan Giles, et José Pereda. The Definitive Guide to Modern Java Clients with JavaFX. 2024.";"Interface homme-machine
+Accessibilité";Français;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-MM1;15;15;Daniel, Nicolas, Arianna Novaro ?;;;Mathématiques pour l'informatique;;Il s'agit de reprendre et asseoir les concepts mathématiques nécessaires en informatique, notamment pour ceux poursuivant en filière IA en Master.;Maîtriser les concepts mathématiques nécessaires en informatique. Savoir faire le lien avec leur utilité en informatique.;oui;aucun;CC+Partiel (50%-50%);"Révision des concepts : arithmétique, suites, calcul ensembliste, fonctions, polynômes, logique, dénombrement et probabilités discrètes,…
+Chaque concept mathématique abordé fait l’objet d’un cours rappelant les notions et propriétés principales. Les TD sont l’occasion de s’entraîner sur des exercices pour vérifier que les concepts sont bien compris. Ces TD sont aussi l’occasion de mettre en évidence l’utilités des concepts étudiés pour l’informatique.";"Ecrire une solution algorithmique adéquate à un problème et l'implémenter dans un langage de programmation (impératif, oo)
+Traduire un problème simple en langage mathématique.";Traduire un problème simple en langage mathématique.;"• Jacques Vélu, Geneviève Avérous . Méthodes mathématiques pour l'informatique (5e édition). Cours et exercices corrigés. Dunod.
 • Jacques Vélu, Geneviève Avérous, Isabelle Gilles, Françoise Santi. Mathématiques pour l'informatique - Exercices et problèmes. Dunod.
 • 
-";;
-Cours obligatoire;L3-GO1 : Comptabilité et Comptabilité analytique;15;15;Carine;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-Cours obligatoire;L3-TC1 : Techniques de communication;0;12;Carine;Brigitte ?;;Communication interpersonnelle;;"Les fondamentaux de la communication interpersonnelle
+";"Mathématique
+Informatique";Français;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-GO1;15;15;Carine;;;Comptabilité et Comptabilité analytique;;"Ce cours vise à développer les compétences des étudiants en matière de comptabilité
+financière, notamment la capacité à mesurer, enregistrer et communiquer les informations
+financières de l'entreprise. Les étudiants apprendront à préparer et à interpréter les états financiers, tels que le bilan, le compte de résultat et le tableau des flux de trésorerie, tout en comprenant les concepts et normes de base de la comptabilité.";"Les principaux objectifs incluent :
+• L'acquisition du vocabulaire comptable et des principes fondamentaux de la
+comptabilité en partie double ;
+• La maîtrise de l'enregistrement des transactions courantes ainsi que la valorisation des
+actifs et des passifs ;
+• L'élaboration et l'interprétation des états financiers ;
+• La compréhension des interactions entre les différents états financiers ;
+• L'apprentissage des méthodes de calcul des coûts (Méthode des Coûts Complets,
+Méthode ABC, Méthode des Coûts Partiels) et leur application dans la gestion de
+l'entreprise ;
+• La préparation au contrôle budgétaire et au contrôle de gestion.
+En fin de compte, ce cours permet aux étudiants d'acquérir une vision complète du système
+d'information comptable et de comprendre comment la comptabilité peut soutenir la prise de
+décision stratégique dans l'entreprise, tout en reconnaissant ses limites.";oui;Aucun;"CC+Partiel (50%-50%)
+Le contrôle continu comprends deux QCM et deux études de cas. L'examen final est un
+devoir individuel portant sur la résolution d'exercices pratiques. ";"• Cours magistraux appuyés par des présentations PowerPoint, intégrant des exemples concrets pour illustrer les principes et règles comptables ;
+• Exercices pratiques et études de cas permettant d'appliquer les concepts abordés en cours, accompagnés de corrections détaillées pour approfondir la compréhension ;
+• Questionnaires à choix multiples (QCM) pour évaluer la maîtrise des notions essentielles et encourager l'auto-évaluation ;
+
+Contenu du cours:
+- Introduction à la comptabilité
+- Plan général comptable
+- Enregistrement des transactions simples
+- Comptabilité des actifs corporels et incorporels
+- Comptabilité des stocks et des passifs
+- Compte de résultat
+- Reconnaissance des revenus et charges 
+- A payer et prépaiements
+- Définition et objectifs de la comptabilité analytique
+- Le calcul des coûts complets
+- Méthode Activity Based Costing (ABC)
+- Méthode du direct costing
+- Contrôle budgétaire : les écarts sur coûts";Intégrer les objectifs et contraintes des principales fonctions de gestion;Intégrer les objectifs et contraintes des principales fonctions de gestion;"Deegan, C., & Ward, A. M. (2013). Financial accounting and reporting: An international
+approach (1st ed.). McGraw-Hill Education.
+Leclère, D. (2004). L'essentiel de la comptabilité analytique (4th ed.). Éd. d'Organisation.
+Grandguillot, F., & Grandguillot, B. (2024). Comptabilité générale. (24th ed.). Gualino.
+Friedrich, J.-J. (2021). Comptabilité générale & gestion des entreprises. Hachette Supérieur.
+ISBN: 9782017151562.
+Obert, R., Mairesse, M.-P., & Desenfans, A. (2024). DSCG 4 - Comptabilité et audit - Manuel
+2024-2025. Dunod.";"Comptabilité Générale
+Comptabilité analytique";Français;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-TC1;0;12;Carine, Brigitte;;;Techniques de communication;;"Les fondamentaux de la communication interpersonnelle
 •	Déperditions, interprétations, faux sens, inférences : les pièges à connaître
 •	Attitudes spontanées en communication
 •	Le non verbal : repères, perceptions, faits, sentiments, opinions
@@ -110,28 +176,48 @@ Cours obligatoire;L3-TC1 : Techniques de communication;0;12;Carine;Brigitte ?;;C
 - sur les pères fondateurs de la discipline (Watzlawick, Rodgers, Porter, Salter et Wolpe, Bateson...)
 - et sur un mode pédagogique visant à opérationnaliser les comportements efficaces en communication : 
 o   par le jeu : exercices pratiques,
-o   et par l'enjeu : restitution écrite et soutenance orale d'un projet de communication, conduit en groupe et évalué en mode « jury ».";Oui;Aucun;Contrôle Continu (Quiz individuel + soutenance projet com en équipe);"S'adressant à de futurs praticiens, l'animation des différents séquences s'appuie essentiellement sur la pratique : les apports théoriques, indispensables, sont brefs et complétés par des recherches personnelles. 
+o   et par l'enjeu : restitution écrite et soutenance orale d'un projet de communication, conduit en groupe et évalué en mode « jury ».
 
-Une série d'exercices vient solliciter les étudiants, pour les amener à mobiliser leurs aptitudes, s'entraîner à les transformer en capacités (à écouter, à reformuler, à convaincre, à laisser une impression), pour viser l'acquisition des compétences interpersonnelles indispensables à l’activité professionnelle (cf référentiel de compétences Miage).";"TC1 : 
+Objectifs:
 Adapter son écoute verbale et non verbale à ses différents types d'interlocuteurs
 Avancer des arguments s'appuyant sur des éléments factuels 
 Construire son argumentation en tenant compte des critiques potentielles
 Discerner les éléments factuels des opinions ou des sentiments 
 Expliquer l'écoute active en communication inter-personnelle (se taire, questionner, reformuler)
 Expliquer les bases théoriques de la communication
-Expliquer son point de vue en adequation avec son ou ses interlocuteurs
+Expliquer son point de vue en adequation avec son ou ses interlocuteurs
 Identifier les situations conflictuelles et leur importance dans la vie d'un groupe
 Utiliser les méthodes de résolution des conflits
-Pratiquer l'écoute active en communication inter-personnelle (se taire, questionner, reformuler)";Pas de compétences requises (module déployé sur tous milieux socio-culturels, du chauffeur-livreur au dirigeant);"•	Claude E. Shannon, A Mathematical Theory of Communication, Bell System Technical Journal, vol. 27, p. 379-423 and 623-656, July and October, 1948 (ISBN 0252725484)
+Pratiquer l'écoute active en communication inter-personnelle (se taire, questionner, reformuler)
+";oui;Aucun;Contrôle Continu (Quiz individuel + soutenance projet com en équipe);"S'adressant à de futurs praticiens, l'animation des différents séquences s'appuie essentiellement sur la pratique : les apports théoriques, indispensables, sont brefs et complétés par des recherches personnelles. 
+
+Une série d'exercices vient solliciter les étudiants, pour les amener à mobiliser leurs aptitudes, s'entraîner à les transformer en capacités (à écouter, à reformuler, à convaincre, à laisser une impression), pour viser l'acquisition des compétences interpersonnelles indispensables à l’activité professionnelle (cf référentiel de compétences Miage).";"Identifier, sélectionner et analyser avec esprit critique diverses ressources dans son domaine de spécialité pour documenter un sujet.
+Analyser et synthétiser des données en vue de leur exploitation.
+Développer une argumentation avec esprit critique.
+Se servir aisément des différents registres d’expression écrite et orale de la langue française.";"Analyser et synthétiser des données en vue de leur exploitation.
+Développer une argumentation avec esprit critique.
+Se servir aisément des différents registres d’expression écrite et orale de la langue française.";"•	Claude E. Shannon, A Mathematical Theory of Communication, Bell System Technical Journal, vol. 27, p. 379-423 and 623-656, July and October, 1948 (ISBN 0252725484)
 •	Paul Watzlawick, Avec Janet H. Beavin et Donald D. Jackson, Une logique de la communication, 1967, Norton, trad. Seuil, 1972 (ISBN 978-2020052207), et toute son œuvre, ainsi que ses conférences (YouTube)
 •	Jean-Claude Abric, Méthode d’étude des représentations sociales (2005), ERES, ISBN : 9782749201238
 •	Elias Porter, Relationship Awareness Theory, Manual of Administration and Interpretation, 9 th Edition. Carlsbad, CA: Personal Strengths Publishing, Inc. 
 •	Luft J and Ingham H. (1955). The Johari Window: a graphic model for interpersonal relations, University of California Western Training Lab.
 •	Andrew Salter, Conditioned Reflex Therapy (1949) et Joseph Wolpe, The Practice of Behavior Therapy, Pergamon Press, 1969
 
-•	Steve Jobs : http://evene.lefigaro.fr/celebre/actualite/discours-steve-jobs-stanford-2005-672682.php#0";;Français
-Cours obligatoire;L3-AN1;0;30;Carine;Emmanuelle ?;;Anglais;;Les apprenants seront en mesure de participer à des réunions, des présentations, écrire des e-mails officiels, les essais et le travail professionnel. Etre un mesure de faire face aux situations courantes de la vie quotidienne du monde des affaires.;"
-";;;;"•	Grammaire
+•	Steve Jobs : http://evene.lefigaro.fr/celebre/actualite/discours-steve-jobs-stanford-2005-672682.php#0";"Communication interpersonnelle
+Ecoute verbale et non verbale
+situation de conflit";Français;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-AN1;0;30;Carine, Emmanuelle;;;Anglais;;"English for Business and Information Technology
+
+Le cours porte sur l'enseignement de l'anglais des affaires et des technologies de l'information. Les étudiants seront en mesure de maîtriser des compétences telles que 
+•    la rédaction d'e-mails, de CV, de lettres de motivation et d'autres types de lettres commerciales
+•    la communication en anglais par téléphone
+•    la compréhension de contenus généraux et spécifiques en anglais
+•    la lecture et la rédaction de documents techniques
+
+De plus, ils se prépareront à passer le test de certification du TOEIC.";"* Permettre aux étudiants d'acquérir une meilleure maîtrise de la langues, tant professionnelle qu'universitaire, de façon à accéder au niveau C1 du CECRL
+* Pouvoir comprendre des documents authentiques écrits, articles de presse, enregistrements audios et vidéos dans leur domaine de formation
+* Préparer la certification du TOEIC
+";oui;Les étudiants doivent avoir acquis le niveau B2 du CECRL dans toutes les compétences (compréhension orale et écrite, expression orale et écrite) ;contrôle continu composé d'un devoir de mi-semestre, un exposé oral + participation en cours, un devoir de fin de semestre;"•	Grammaire
 •	Vocabulaire
 •	Expression Ecrit 
 •	Expression Orale
@@ -140,14 +226,11 @@ Cours obligatoire;L3-AN1;0;30;Carine;Emmanuelle ?;;Anglais;;Les apprenants seron
 Les sujets sont basés sur l'actualité et utilisés pour la compréhension et l'expansion du vocabulaire. Grammaire et expressions sont enseignés afin que les apprenants peuvent résumer le sujet par écrit ou une présentation orale.
 Gap Fill (Remplissage de Gap), questions de vrai et faux et exercices synonyme correspondant confirment acquisition à un niveau de base tandis que les apprenants plus forts peuvent être étirés en fournissant des réponses plus longues
 Les étudiants reçoivent des sujets à présenter et arguments à donner. Les étudiants sont interrogés personnellement de vérifier leur progrès.
-";;;"•	Market Leader Advanced/ Intermediate
-•	Email English
-•	Breaking News English
-•	Cambridge Grammar in Use
-•	Guardian News
-";;
-Cours obligatoire;"L3-ISI3 : Atelier ""Techniques et outils de développement et de tests""";0;18;Nicolas;;;;;;;;;;;;;;;
-Cours obligatoire;L3-GO2 ;0;6;Rebecca, Carine, Irina;;(introduction);"Atelier ""Sensibilisation au développement durable""";6h;Cet atelier présente les principes du Développement Durable et de la Responsabilité Sociétale (DDRS) et leur application dans le domaine de l’informatique. Les étudiants exploreront les concepts d'éthique, de durabilité, de cycle de vie de produit, ainsi que les cadres d'evaluation (methodes et les metriques) de durabilité. ;"1. Comprendre les principes de DDRS
+";Communiquer par oral et par écrit, de façon claire et non-ambiguë, dans au moins une langue étrangère. ;Communiquer par oral et par écrit, de façon claire et non-ambiguë, dans au moins une langue étrangère. ;Lougheed, L. et Bourgeois, H. 2012. Tests complets pour le TOEIC. Montreuil: Pearson;Business English, Information Technology, new technologies;Français et Anglais;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-ISI3;0;18;Nicolas;;;"Atelier ""Techniques et outils de développement et de tests""";;;;oui;;VAL/NVAL;;"Configurer et assembler les outils nécessaires à un processus de développement d'application (en y incluant les outils d'audit logicielle et de documentation)
+Concevoir et réaliser des jeux de tests nécessaires à assurer la robustesse et la recette d'une application";"Configurer et assembler les outils nécessaires à un processus de développement d'application (en y incluant les outils d'audit logicielle et de documentation)
+Concevoir et réaliser des jeux de tests nécessaires à assurer la robustesse et la recette d'une application";;;Français;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-GO2 ;0;6;Rebecca, Carine, Irina;;(introduction);"Atelier ""Sensibilisation au développement durable""";;Cet atelier présente les principes du Développement Durable et de la Responsabilité Sociétale (DDRS) et leur application dans le domaine de l’informatique. Les étudiants exploreront les concepts d'éthique, de durabilité, de cycle de vie de produit, ainsi que les cadres d'evaluation (methodes et les metriques) de durabilité. ;"1. Comprendre les principes de DDRS
 2. Comprendre le cadre général d'analyse de la durabilité, Définir et distinguer « produit durable » et « cycle de vie durable ».
 3. Appliquer un cadre d'évaluation de la durabilité (métriques, méthodes...)
 4. Comprendre l'impact DDRS sur les entreprises et sur l'informatique.";oui;n/a;VAL/NVAL;"1) Atelier de reflexion pour  reflechir sur les ODD et en quoi les compétences d'un diplomé MIAGE peuvent y contribuer positivement (par exemple, analyse de données, conception de systèmes, optimisation de processus).
@@ -158,10 +241,11 @@ Cours obligatoire;L3-GO2 ;0;6;Rebecca, Carine, Irina;;(introduction);"Atelier ""
 3) Grille DDRS/Ethique ?????
 4) Atelier Fresque (du numérique ou de climat).";"Respecter les principes de responsabilité environnementale.
 Comprendre l'impact de la responsabilité environnementale sur les entreprises et l'informatique.";Comprendre l'impact de la responsabilité environnementale sur les entreprises et l'informatique.;"Documents sur ODD, DDRS;
-References sur les methods d'evaluation de durabilité (e.x., carbon footprint)";DDRS, Durabilité, Ethique, Responsabilité, Cycle de vie durable, Produit durable, Green for IT;EN/FR
-Cours obligatoire;"L3-GO3 : Atelier ""Compétences & PEC""";0;6;Carine;Brigitte ?;;;;;;;;;;;;;;
-Cours obligatoire;"L3-INF5 : Atelier ""Introduction à l'IA""";0;6;Nourhène, Camille, Daniel;;;"Atelier ""Introduction à 
-l'intelligence artificielle""";;Cet atelier permet aux étudiants de se familiariser avec les bases de l'intelligence artificielle (IA) et ses domaines clés. Ils exploreront divers secteurs d'application de l'IA . Les étudiants auront également l'opportunité de développer une application simple en utilisant une technologie IA en boîte noire.;"1) Connaitre les bases de l’intelligence artificielle et ses domaines clés.
+References sur les methods d'evaluation de durabilité (e.x., carbon footprint)";DDRS, Durabilité, Ethique, Responsabilité, Cycle de vie durable, Produit durable, Green for IT;Anglais et Français;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-GO3;0;6;Carine, Brigitte;;;"Atelier ""Compétences & PEC""";;;;oui;;VAL/NVAL;;"Identifier et situer les champs professionnels potentiellement en relation avec les acquis de la mention ainsi que les parcours possibles pour y accéder.
+Caractériser et valoriser son identité, ses compétences et son projet professionnel en fonction d’un contexte.";"Identifier et situer les champs professionnels potentiellement en relation avec les acquis de la mention ainsi que les parcours possibles pour y accéder.
+Caractériser et valoriser son identité, ses compétences et son projet professionnel en fonction d’un contexte.";;;Français;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-INF5;0;6;Nourhène, Camille, Daniel;;;"Atelier ""Introduction à l'IA""";;Cet atelier permet aux étudiants de se familiariser avec les bases de l'intelligence artificielle (IA) et ses domaines clés. Ils exploreront divers secteurs d'application de l'IA . Les étudiants auront également l'opportunité de développer une application simple en utilisant une technologie IA en boîte noire.;"1) Connaitre les bases de l’intelligence artificielle et ses domaines clés.
 2)	Connaitre différents domaines d’application 
 3)	Créer une application simple d’une technologie en IA utilisé en boite noire 
  ";oui;aucun;VAL/NVAL;"1) Concepts Clés et Panorama des Techniques d’IA (Concepts fondamentaux, Présentation des principales techniques d’IA)
@@ -173,7 +257,10 @@ l'intelligence artificielle""";;Cet atelier permet aux étudiants de se familiar
 Création d’une Application IA Simple ";"Utiliser les outils numériques de référence et les règles 
 de sécurité informatique pour acquérir, traiter, produire 
 et diffuser de l’information ainsi que pour collaborer
- en interne et en externe. ";;"	Russell, S. J., & Norvig, P. (2016). Artificial intelligence: a modern approach. Pearson.
--	Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. "" O'Reilly Media, Inc."", 2022.O18";"intelligence artificielle,
- machine learning, NLP";FR
-Cours obligatoire;L3-AN2: Certification Langue Anglaise;0;0;;;;;;;;;;;;;;;;
+ en interne et en externe. ";"Utiliser les outils numériques de référence et les règles 
+de sécurité informatique pour acquérir, traiter, produire 
+et diffuser de l’information ainsi que pour collaborer
+ en interne et en externe. ";"* Russell, S. J., & Norvig, P. (2016). Artificial intelligence: a modern approach. Pearson.
+* Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. "" O'Reilly Media, Inc."", 2022.O18";"intelligence artificielle,
+ machine learning, NLP";Français;;;;;;;;;;;;;;;;;;;;
+Cours obligatoire;L3-AN2;0;0;;;;Certification Langue Anglaise;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
