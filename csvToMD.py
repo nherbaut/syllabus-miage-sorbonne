@@ -15,7 +15,8 @@ def process_value(value, remove_newlines=True):
     # Strip unwanted characters including U+000B and other control characters
     value = value.strip()
     print(value)
-    value = re.sub(r"[^\t\n\r -~À-ÿ]", "", value)  # Keep printable ASCII + extended Latin (French accents)
+    # Remove only control characters, keep all valid UTF-8 (including emojis, smart quotes, long dashes, etc.)
+    value = re.sub(r"[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]", "", value)
     # Remove control characters
     if remove_newlines:
         value = value.replace(u"\n", u"\n\n")
